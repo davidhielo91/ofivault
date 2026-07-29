@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExternalLink, ShieldCheck } from "lucide-react";
+import { ArchitectureInfo } from "@/components/architecture-info";
 import { LanguageDownloadSelector } from "@/components/language-download-selector";
 import { getCatalogEntry, getCatalogEntries } from "@/lib/catalog";
 import { siteUrl } from "@/lib/site";
@@ -20,7 +21,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!entry) return {};
 
   const title = `Descargar ${entry.software} ${entry.version}`;
-  const description = `Descargá ${entry.software} ${entry.version} en el idioma que necesitás. Enlaces verificados y directos desde el CDN oficial.`;
+  const hasConfirmedArchitectures = entry.software !== "Office 2013";
+  const description = hasConfirmedArchitectures
+    ? `Descargá ${entry.software} ${entry.version} en el idioma que necesitás. El archivo IMG incluye instaladores de 32 y 64 bits.`
+    : `Descargá ${entry.software} ${entry.version} en el idioma que necesitás. Enlaces verificados y directos desde el CDN oficial.`;
   const canonical = `/descargar/${entry.softwareSlug}/${entry.versionSlug}`;
 
   return {
@@ -43,6 +47,7 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
 
   if (!entry) notFound();
 
+  const hasConfirmedArchitectures = entry.software !== "Office 2013";
   const allEntries = await getCatalogEntries();
   const relatedEntries = allEntries
     .filter((candidate) => candidate.software === entry.software && candidate.version !== entry.version)
@@ -54,7 +59,9 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
     name: `${entry.software} ${entry.version}`,
     applicationCategory: "BusinessApplication",
     operatingSystem: "Windows",
-    description: `Página de descarga de ${entry.software} ${entry.version} con ${entry.installers.length} idiomas disponibles.`,
+    description: hasConfirmedArchitectures
+      ? `Página de descarga de ${entry.software} ${entry.version} con ${entry.installers.length} idiomas e instaladores de 32 y 64 bits.`
+      : `Página de descarga de ${entry.software} ${entry.version} con ${entry.installers.length} idiomas disponibles.`,
     url: canonicalUrl,
   };
 
@@ -97,6 +104,8 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
           version={entry.version}
         />
       </section>
+
+      {hasConfirmedArchitectures && <ArchitectureInfo />}
 
       {relatedEntries.length > 0 && (
         <section className="related-section" aria-labelledby="related-title">

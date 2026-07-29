@@ -97,6 +97,23 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.5rem); line-height: .98; letter-spacing: -.
 .selected-language { font-size: 1.4rem; font-weight: 800; letter-spacing: -.03em; }
 .primary-download { align-items: center; background: var(--orange); border-radius: 10px; color: white; display: inline-flex; font-weight: 800; gap: .5rem; justify-content: center; min-height: 48px; padding: 0 1rem; text-decoration: none; }
 .primary-download:hover { background: #a93f0a; }
+.architecture-info { background: var(--mint); border: 1px solid var(--line); border-radius: 20px; margin-top: 2.5rem; padding: clamp(1.25rem, 4vw, 2.5rem); }
+.architecture-heading h2 { font-size: clamp(1.7rem, 3vw, 2.35rem); letter-spacing: -.045em; margin: 0; }
+.architecture-heading > p:last-child { color: var(--muted-ink); margin: .7rem 0 0; max-width: 720px; }
+.architecture-heading code, .architecture-steps code { background: rgb(255 255 255 / 70%); border-radius: 5px; color: var(--teal-deep); font-size: .9em; padding: .12rem .3rem; }
+.architecture-options { display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 1.5rem; }
+.architecture-options article { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.2rem; }
+.architecture-options article > span { color: var(--teal); font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.architecture-options h3 { font-size: 1.35rem; letter-spacing: -.035em; margin: .35rem 0 .2rem; }
+.architecture-options code { color: var(--orange); font-weight: 800; }
+.architecture-options p { color: var(--muted-ink); font-size: .9rem; margin: .7rem 0 0; }
+.architecture-steps { display: grid; gap: .55rem; margin: 1.5rem 0 0; padding-left: 1.35rem; }
+.architecture-steps li { padding-left: .25rem; }
+.architecture-warning { align-items: flex-start; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 12px; color: #7c2d12; display: flex; gap: .7rem; margin-top: 1.5rem; padding: 1rem; }
+.architecture-warning svg { flex: 0 0 auto; margin-top: .12rem; }
+.architecture-warning p { margin: 0; }
+.architecture-source { align-items: center; color: var(--teal-deep); display: inline-flex; font-size: .86rem; font-weight: 800; gap: .35rem; margin-top: 1.2rem; text-underline-offset: 3px; }
+.architecture-source:hover { color: var(--orange); }
 .related-section { margin-top: 4rem; }
 .related-section > .eyebrow { margin-bottom: .7rem; }
 .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin-top: 1.25rem; }
@@ -150,6 +167,7 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.5rem); line-height: .98; letter-spacing: -.
   .product-hero { grid-template-columns: 1fr; }
   .product-stat { width: max-content; }
   .download-callout { align-items: stretch; flex-direction: column; }
+  .architecture-options { grid-template-columns: 1fr; }
   .related-grid { grid-template-columns: 1fr; }
   .category-hero { grid-template-columns: 1fr; }
   .category-stats { width: max-content; }
