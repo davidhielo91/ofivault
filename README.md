@@ -4,6 +4,8 @@ Independent catalog of verified Microsoft Office installer links, organized by v
 
 Each version and product has an indexable canonical URL at `/descargar/{version}/{product}`, with a language selector and direct download link. `sitemap.xml` and `robots.txt` are generated from Airtable catalog data.
 
+The homepage uses an accessible autocomplete search over version categories and product pages. General searches such as `Office 2021` open `/descargar/office-2021`, while specific searches such as `Office 2021 ProPlus` open the corresponding product page.
+
 ## Local setup
 
 1. Copy `.env.example` to `.env.local` and add a read-only Airtable personal access token.

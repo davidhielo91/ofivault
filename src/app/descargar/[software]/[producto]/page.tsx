@@ -62,9 +62,9 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
     <main id="contenido" className="product-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <nav className="breadcrumbs" aria-label="Ruta de navegación">
-        <Link href="/">Catálogo</Link>
+        <Link href="/">Inicio</Link>
         <span aria-hidden="true">/</span>
-        <span>{entry.software}</span>
+        <Link href={`/descargar/${entry.softwareSlug}`}>{entry.software}</Link>
         <span aria-hidden="true">/</span>
         <span aria-current="page">{entry.version}</span>
       </nav>

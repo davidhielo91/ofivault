@@ -17,6 +17,12 @@ export type CatalogEntry = {
   installers: Installer[];
 };
 
+export type CatalogCategory = {
+  software: string;
+  softwareSlug: string;
+  entries: CatalogEntry[];
+};
+
 type AirtableResponse = {
   records: Array<{
     id: string;
@@ -115,4 +121,32 @@ export async function getCatalogEntry(softwareSlug: string, versionSlug: string)
   return entries.find(
     (entry) => entry.softwareSlug === softwareSlug && entry.versionSlug === versionSlug,
   );
+}
+
+export async function getCatalogCategories(): Promise<CatalogCategory[]> {
+  const entries = await getCatalogEntries();
+  const categories = new Map<string, CatalogCategory>();
+
+  for (const entry of entries) {
+    const category = categories.get(entry.softwareSlug);
+
+    if (category) {
+      category.entries.push(entry);
+    } else {
+      categories.set(entry.softwareSlug, {
+        software: entry.software,
+        softwareSlug: entry.softwareSlug,
+        entries: [entry],
+      });
+    }
+  }
+
+  return [...categories.values()].sort((a, b) =>
+    a.software.localeCompare(b.software, "es"),
+  );
+}
+
+export async function getCatalogCategory(softwareSlug: string) {
+  const categories = await getCatalogCategories();
+  return categories.find((category) => category.softwareSlug === softwareSlug);
 }
