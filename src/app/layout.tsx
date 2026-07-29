@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
+import { siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "OfiVault | Catálogo de instaladores",
   description: "Catálogo independiente de instaladores verificados de Microsoft Office.",
 };

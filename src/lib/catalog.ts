@@ -1,4 +1,5 @@
 import "server-only";
+import { toSlug } from "@/lib/slug";
 
 export type Installer = {
   id: string;
@@ -6,6 +7,14 @@ export type Installer = {
   version: string;
   language: string;
   url: string;
+};
+
+export type CatalogEntry = {
+  software: string;
+  softwareSlug: string;
+  version: string;
+  versionSlug: string;
+  installers: Installer[];
 };
 
 type AirtableResponse = {
@@ -70,5 +79,40 @@ export async function getInstallers(): Promise<Installer[]> {
       `${b.software}-${b.version}-${b.language}`,
       "es",
     ),
+  );
+}
+
+export async function getCatalogEntries(): Promise<CatalogEntry[]> {
+  const installers = await getInstallers();
+  const entries = new Map<string, CatalogEntry>();
+
+  for (const installer of installers) {
+    const softwareSlug = toSlug(installer.software);
+    const versionSlug = toSlug(installer.version);
+    const key = `${softwareSlug}/${versionSlug}`;
+    const entry = entries.get(key);
+
+    if (entry) {
+      entry.installers.push(installer);
+    } else {
+      entries.set(key, {
+        software: installer.software,
+        softwareSlug,
+        version: installer.version,
+        versionSlug,
+        installers: [installer],
+      });
+    }
+  }
+
+  return [...entries.values()].sort((a, b) =>
+    `${a.software}-${a.version}`.localeCompare(`${b.software}-${b.version}`, "es"),
+  );
+}
+
+export async function getCatalogEntry(softwareSlug: string, versionSlug: string) {
+  const entries = await getCatalogEntries();
+  return entries.find(
+    (entry) => entry.softwareSlug === softwareSlug && entry.versionSlug === versionSlug,
   );
 }

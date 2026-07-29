@@ -67,6 +67,37 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.5rem); line-height: .98; letter-spacing: -.
 .site-footer { border-top: 1px solid var(--line); color: var(--muted-ink); display: grid; gap: .35rem; font-size: .8rem; margin-top: 3.5rem; padding-top: 1.5rem; }
 .site-footer p { margin: 0; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+.product-page { max-width: 980px; margin: 0 auto; padding: 1rem 1.5rem 4rem; }
+.breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; color: var(--muted-ink); font-size: .86rem; margin: 1rem 0 2.5rem; }
+.breadcrumbs a { color: var(--teal-deep); font-weight: 700; }
+.product-hero { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: end; border-bottom: 1px solid var(--line); padding-bottom: 2.5rem; }
+.product-hero h1 { color: var(--ink); font-size: clamp(2.5rem, 6vw, 4.7rem); }
+.product-hero > div > p:last-child { color: var(--muted-ink); font-size: 1.1rem; max-width: 650px; margin: 1.25rem 0 0; }
+.product-stat { min-width: 160px; background: var(--mint); border-radius: 16px; margin: 0; padding: 1.25rem; }
+.product-stat dt { color: var(--teal-deep); font-size: 2.1rem; font-weight: 800; letter-spacing: -.06em; }
+.product-stat dd { color: var(--muted-ink); font-size: .82rem; margin: 0; }
+.download-panel { display: grid; gap: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); margin-top: 2.5rem; padding: clamp(1.25rem, 4vw, 2.5rem); }
+.download-panel h2, .related-section h2, .license-note h2 { font-size: clamp(1.6rem, 3vw, 2.25rem); letter-spacing: -.045em; margin: 0; }
+.panel-description { color: var(--muted-ink); margin: .6rem 0 0; max-width: 670px; }
+.language-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .7rem; align-items: end; }
+.language-form label { font-size: .83rem; font-weight: 800; grid-column: 1 / -1; }
+.language-form select, .language-form button { border-radius: 10px; min-height: 48px; }
+.language-form select { border: 1px solid var(--line); color: var(--ink); background: #fbfffd; padding: 0 .85rem; }
+.language-form button { border: 0; background: var(--teal-deep); color: white; cursor: pointer; font-weight: 800; padding: 0 1rem; }
+.download-callout { background: var(--teal-deep); color: white; border-radius: 16px; display: flex; justify-content: space-between; align-items: center; gap: 1.25rem; padding: 1.25rem; }
+.download-callout .eyebrow { color: #8ee7da; margin-bottom: .2rem; }
+.download-callout p { margin: 0; }
+.selected-language { font-size: 1.4rem; font-weight: 800; letter-spacing: -.03em; }
+.primary-download { align-items: center; background: var(--orange); border-radius: 10px; color: white; display: inline-flex; font-weight: 800; gap: .5rem; justify-content: center; min-height: 48px; padding: 0 1rem; text-decoration: none; }
+.primary-download:hover { background: #a93f0a; }
+.related-section { margin-top: 4rem; }
+.related-section > .eyebrow { margin-bottom: .7rem; }
+.related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin-top: 1.25rem; }
+.related-link { align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; display: flex; font-weight: 750; justify-content: space-between; min-height: 58px; padding: .8rem 1rem; text-decoration: none; }
+.related-link:hover { border-color: var(--teal); color: var(--teal-deep); }
+.license-note { border-left: 3px solid var(--orange); color: var(--muted-ink); margin-top: 4rem; max-width: 760px; padding: .2rem 0 .2rem 1.25rem; }
+.license-note h2 { color: var(--ink); font-size: 1.2rem; }
+.license-note p { margin: .6rem 0 0; }
 
 @media (max-width: 920px) {
   .filters { grid-template-columns: minmax(200px, 1fr) repeat(2, minmax(120px, 1fr)); }
@@ -88,6 +119,13 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.5rem); line-height: .98; letter-spacing: -.
   .search-field { grid-column: 1 / -1; }
   .clear-button { grid-column: 1 / -1; }
   .installer-grid { grid-template-columns: 1fr; }
+  .product-page { padding: .5rem 1rem 3rem; }
+  .breadcrumbs { margin-bottom: 1.75rem; }
+  .product-hero { grid-template-columns: 1fr; }
+  .product-stat { width: max-content; }
+  .language-form { grid-template-columns: 1fr; }
+  .download-callout { align-items: stretch; flex-direction: column; }
+  .related-grid { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -2,6 +2,8 @@
 
 Independent catalog of verified Microsoft Office installer links, organized by version, product, and language.
 
+Each version and product has an indexable canonical URL at `/descargar/{version}/{product}`, with a language selector and direct download link. `sitemap.xml` and `robots.txt` are generated from Airtable catalog data.
+
 ## Local setup
 
 1. Copy `.env.example` to `.env.local` and add a read-only Airtable personal access token.

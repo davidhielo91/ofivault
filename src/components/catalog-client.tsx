@@ -2,7 +2,9 @@
 
 import { useDeferredValue, useState } from "react";
 import { ArrowUpRight, Download, Search, ShieldCheck, SlidersHorizontal } from "lucide-react";
+import Link from "next/link";
 import type { Installer } from "@/lib/catalog";
+import { toSlug } from "@/lib/slug";
 
 type CatalogClientProps = {
   installers: Installer[];
@@ -105,9 +107,9 @@ export function CatalogClient({ installers }: CatalogClientProps) {
                 <p className="installer-software">{installer.software}</p>
                 <h3>{installer.version}</h3>
                 <p className="installer-language">{installer.language}</p>
-                <a className="download-link" href={installer.url} target="_blank" rel="noreferrer">
-                  Descargar <ArrowUpRight size={17} aria-hidden="true" />
-                </a>
+                <Link className="download-link" href={`/descargar/${toSlug(installer.software)}/${toSlug(installer.version)}?idioma=${encodeURIComponent(installer.language)}`}>
+                  Ver descarga <ArrowUpRight size={17} aria-hidden="true" />
+                </Link>
               </article>
             ))}
           </div>
