@@ -79,11 +79,10 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.5rem); line-height: .98; letter-spacing: -.
 .download-panel { display: grid; gap: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); margin-top: 2.5rem; padding: clamp(1.25rem, 4vw, 2.5rem); }
 .download-panel h2, .related-section h2, .license-note h2 { font-size: clamp(1.6rem, 3vw, 2.25rem); letter-spacing: -.045em; margin: 0; }
 .panel-description { color: var(--muted-ink); margin: .6rem 0 0; max-width: 670px; }
-.language-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .7rem; align-items: end; }
-.language-form label { font-size: .83rem; font-weight: 800; grid-column: 1 / -1; }
-.language-form select, .language-form button { border-radius: 10px; min-height: 48px; }
+.language-form { display: grid; gap: .7rem; }
+.language-form label { font-size: .83rem; font-weight: 800; }
+.language-form select { border-radius: 10px; min-height: 48px; }
 .language-form select { border: 1px solid var(--line); color: var(--ink); background: #fbfffd; padding: 0 .85rem; }
-.language-form button { border: 0; background: var(--teal-deep); color: white; cursor: pointer; font-weight: 800; padding: 0 1rem; }
 .download-callout { background: var(--teal-deep); color: white; border-radius: 16px; display: flex; justify-content: space-between; align-items: center; gap: 1.25rem; padding: 1.25rem; }
 .download-callout .eyebrow { color: #8ee7da; margin-bottom: .2rem; }
 .download-callout p { margin: 0; }
@@ -123,7 +122,6 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.5rem); line-height: .98; letter-spacing: -.
   .breadcrumbs { margin-bottom: 1.75rem; }
   .product-hero { grid-template-columns: 1fr; }
   .product-stat { width: max-content; }
-  .language-form { grid-template-columns: 1fr; }
   .download-callout { align-items: stretch; flex-direction: column; }
   .related-grid { grid-template-columns: 1fr; }
 }

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Download, ExternalLink, ShieldCheck } from "lucide-react";
+import { ExternalLink, ShieldCheck } from "lucide-react";
+import { LanguageDownloadSelector } from "@/components/language-download-selector";
 import { getCatalogEntry, getCatalogEntries } from "@/lib/catalog";
 import { siteUrl } from "@/lib/site";
 
@@ -42,8 +43,6 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
 
   if (!entry) notFound();
 
-  const selectedInstaller = entry.installers.find((installer) => installer.language === idioma)
-    ?? entry.installers[0];
   const allEntries = await getCatalogEntries();
   const relatedEntries = allEntries
     .filter((candidate) => candidate.software === entry.software && candidate.version !== entry.version)
@@ -91,25 +90,12 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
           <h2 id="download-title">Elegí el idioma de instalación</h2>
           <p className="panel-description">El enlace se actualiza según la selección. Asegurate de contar con una licencia válida antes de instalar.</p>
         </div>
-        <form className="language-form">
-          <label htmlFor="idioma">Idioma</label>
-          <select id="idioma" name="idioma" defaultValue={selectedInstaller.language}>
-            {entry.installers.map((installer) => (
-              <option key={installer.id} value={installer.language}>{installer.language}</option>
-            ))}
-          </select>
-          <button type="submit">Actualizar enlace</button>
-        </form>
-        <div className="download-callout">
-          <div>
-            <p className="eyebrow">Paso 2</p>
-            <p className="selected-language">{selectedInstaller.language}</p>
-            <p>{entry.software} {entry.version}</p>
-          </div>
-          <a className="primary-download" href={selectedInstaller.url} target="_blank" rel="noreferrer">
-            Descargar instalador <Download size={18} aria-hidden="true" />
-          </a>
-        </div>
+        <LanguageDownloadSelector
+          installers={entry.installers}
+          initialLanguage={idioma}
+          software={entry.software}
+          version={entry.version}
+        />
       </section>
 
       {relatedEntries.length > 0 && (
