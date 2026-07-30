@@ -6,3 +6,5 @@ out/
 *.tsbuildinfo
 *.log
 .vercel/
+.codegraph/
+.atl/

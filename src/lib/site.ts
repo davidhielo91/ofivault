@@ -1,1 +1,1 @@
-export const siteUrl = "https://ofivault.vercel.app";
+export const siteUrl = "https://ofivault.de";
