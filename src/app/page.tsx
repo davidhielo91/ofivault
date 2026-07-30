@@ -119,6 +119,7 @@ export default async function Home() {
       <footer className="site-footer">
         <p>OfiVault es un catálogo independiente. Microsoft y Office son marcas del grupo de empresas Microsoft.</p>
         <Link href="/sobre-ofivault">Cómo verificamos las descargas</Link>
+        <Link href="/privacidad">Privacidad</Link>
         <SupportLink>¿Te resultó útil? Apoya el mantenimiento con un café.</SupportLink>
       </footer>
     </main>

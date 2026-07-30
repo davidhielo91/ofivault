@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
-import { GoogleAnalytics } from "@/components/google-analytics";
+import { AnalyticsConsent } from "@/components/analytics-consent";
 import { siteUrl } from "@/lib/site";
 
 const geistSans = Geist({
@@ -50,7 +50,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           </div>
         </header>
         {children}
-        <GoogleAnalytics />
+        <AnalyticsConsent />
       </body>
     </html>
   );

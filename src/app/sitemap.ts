@@ -11,6 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: siteUrl, changeFrequency: "weekly", priority: 1 },
     { url: `${siteUrl}/guias`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/sobre-ofivault`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${siteUrl}/privacidad`, changeFrequency: "yearly", priority: 0.4 },
     ...guides.map((guide) => ({
       url: `${siteUrl}/guias/${guide.slug}`,
       lastModified: guide.updatedAt,

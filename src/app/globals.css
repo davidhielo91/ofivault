@@ -247,6 +247,25 @@ h1 { font-size: clamp(2.55rem, 6vw, 4.5rem); line-height: 1.02; letter-spacing: 
 .support-note p:not(.eyebrow) { color: var(--muted-ink); margin: .35rem 0 0; }
 .support-button { align-items: center; background: var(--orange); border-radius: 9px; color: white; display: inline-flex; font-weight: 650; min-height: 48px; padding: 0 1rem; text-decoration: none; transition: background-color .18s ease; white-space: nowrap; }
 .support-button:hover { background: #a93f0a; color: white; }
+.consent-banner { align-items: center; background: var(--teal-deep); bottom: 1rem; box-shadow: 0 14px 36px rgb(21 58 55 / 20%); color: white; display: flex; gap: 1.5rem; justify-content: space-between; left: 1rem; padding: 1rem 1.15rem; position: fixed; right: 1rem; z-index: 50; }
+.consent-banner p { color: #d8f5ef; font-size: .86rem; margin: .25rem 0 0; max-width: 720px; }
+.consent-banner a { color: white; text-underline-offset: 3px; }
+.consent-title { color: white !important; font-weight: 650; margin: 0 !important; }
+.consent-actions { align-items: center; display: flex; flex-wrap: wrap; gap: .6rem; }
+.consent-actions button { border: 0; border-radius: 9px; cursor: pointer; font-weight: 650; min-height: 44px; padding: 0 .9rem; }
+.consent-primary { background: var(--orange); color: white; }
+.consent-primary:hover { background: #a93f0a; }
+.consent-secondary { background: transparent; color: white; text-decoration: underline; text-underline-offset: 3px; }
+.report-link { align-items: center; color: var(--muted-ink); display: inline-flex; font-size: .8rem; gap: .35rem; margin-top: .8rem; text-underline-offset: 3px; }
+.report-link:hover, .report-note a:hover { color: var(--orange); }
+.privacy-section { border-top: 1px solid var(--line); margin-top: 3.5rem; padding-top: 2rem; }
+.privacy-section h2 { font-size: clamp(1.7rem, 4vw, 2.5rem); letter-spacing: -.04em; line-height: 1.08; margin: 0; }
+.privacy-section > p:not(.eyebrow) { color: var(--muted-ink); max-width: 780px; }
+.privacy-section code { background: var(--mint); border-radius: 5px; color: var(--teal-deep); font-family: var(--font-mono); font-size: .9em; padding: .12rem .3rem; }
+.privacy-links { display: grid; gap: .55rem; margin-top: 1rem; }
+.privacy-links .guide-source { margin-top: 0; width: max-content; }
+.report-note { color: var(--muted-ink); margin-top: 2rem; }
+.report-note a { color: var(--teal-deep); font-weight: 650; text-underline-offset: 3px; }
 .guide-trust-note { background: var(--mint); border: 1px solid var(--line); border-radius: var(--radius-md); margin-top: 4rem; padding: 1.4rem; }
 .guide-trust-note h2 { font-size: clamp(1.5rem, 3vw, 2rem); letter-spacing: -.035em; margin: 0; }
 .guide-trust-note > p:not(.eyebrow) { color: var(--muted-ink); margin: .55rem 0 0; max-width: 720px; }
@@ -321,6 +340,9 @@ h1 { font-size: clamp(2.55rem, 6vw, 4.5rem); line-height: 1.02; letter-spacing: 
   .guide-catalog-cta a { justify-content: center; }
   .support-note { align-items: stretch; flex-direction: column; }
   .support-button { justify-content: center; }
+  .consent-banner { align-items: stretch; bottom: 0; flex-direction: column; gap: .75rem; left: 0; right: 0; }
+  .consent-actions { align-items: stretch; flex-direction: column-reverse; }
+  .consent-actions button { width: 100%; }
   .not-found-page { padding: 1rem 1rem 3rem; }
   .not-found-actions { align-items: stretch; flex-direction: column; }
   .not-found-actions a { justify-content: center; width: 100%; }

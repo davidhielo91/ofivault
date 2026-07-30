@@ -7,7 +7,7 @@ import { LanguageDownloadSelector } from "@/components/language-download-selecto
 import { getCatalogEntry, getCatalogEntries } from "@/lib/catalog";
 import { formatProductName } from "@/lib/display";
 import { getGuide } from "@/lib/guides";
-import { siteUrl } from "@/lib/site";
+import { reportUrl, siteUrl } from "@/lib/site";
 
 type PageProps = {
   params: Promise<{ software: string; producto: string }>;
@@ -130,6 +130,10 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
           productTitle={productTitle}
         />
       </section>
+
+      <a className="report-link" href={reportUrl} target="_blank" rel="noreferrer">
+        ¿Ves un enlace roto o información incorrecta? Repórtalo en GitHub <ExternalLink size={15} aria-hidden="true" />
+      </a>
 
       {hasConfirmedArchitectures && <ArchitectureInfo />}
 
