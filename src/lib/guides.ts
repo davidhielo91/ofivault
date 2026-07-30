@@ -86,7 +86,7 @@ export const guides: Guide[] = [
     ],
     officialSource: {
       label: "Requisitos del sistema para conjuntos de aplicaciones de Office",
-      url: "https://support.microsoft.com/topic/4121881c-a319-41e8-8c42-230d17b44c43",
+      url: "https://support.microsoft.com/es-es/office/system-requirements/office-suites-for-individuals-and-families",
     },
     officialSources: [
       { label: "Preguntas frecuentes oficiales sobre Office 2024 y Office LTSC 2024", url: "https://support.microsoft.com/es-es/office/lifecycle/office-2024-and-office-ltsc-2024-faq" },
@@ -306,7 +306,7 @@ export const guides: Guide[] = [
     ],
     officialSource: {
       label: "Guía oficial de Microsoft sobre el instalador sin conexión",
-      url: "https://support.microsoft.com/office/use-the-office-offline-installer-f0a85fe7-118f-41cb-a791-d59cef96ad1c",
+       url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/use-the-office-offline-installer",
     },
     relatedSlugs: ["como-instalar-archivo-img-office", "office-32-o-64-bits"],
     updatedAt: "2026-07-29",
@@ -358,7 +358,7 @@ export const guides: Guide[] = [
     ],
     officialSource: {
       label: "Guía oficial de Microsoft para elegir 32 o 64 bits",
-      url: "https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261",
+       url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/choose-between-the-64-bit-or-32-bit-version-of-office",
     },
     relatedSlugs: ["instalador-offline-office", "como-instalar-archivo-img-office"],
     updatedAt: "2026-07-29",
@@ -404,7 +404,7 @@ export const guides: Guide[] = [
     ],
     officialSource: {
       label: "Instrucciones oficiales de Microsoft para imágenes IMG",
-      url: "https://support.microsoft.com/office/use-the-office-offline-installer-f0a85fe7-118f-41cb-a791-d59cef96ad1c",
+       url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/use-the-office-offline-installer",
     },
     relatedSlugs: ["instalador-offline-office", "office-32-o-64-bits"],
     updatedAt: "2026-07-29",
@@ -501,12 +501,12 @@ export const guides: Guide[] = [
     ],
     officialSource: {
       label: "Herramientas oficiales para administrar la activación por volumen de Office",
-      url: "https://learn.microsoft.com/en-us/office/volume-license-activation/tools-to-manage-volume-activation-of-office",
+       url: "https://learn.microsoft.com/es-es/office/volume-license-activation/tools-to-manage-volume-activation-of-office",
     },
     officialSources: [
-      { label: "Desinstalar Microsoft 365 u Office de un PC", url: "https://support.microsoft.com/en-us/office/uninstall-microsoft-365-or-office-from-a-pc" },
-      { label: "Restablecer el estado de activación de Microsoft 365", url: "https://learn.microsoft.com/en-us/previous-versions/troubleshoot/microsoft-365/microsoft-365-apps/activation/reset-office-365-proplus-activation-state" },
-      { label: "Eliminar versiones MSI anteriores con Office Deployment Tool", url: "https://learn.microsoft.com/en-us/microsoft-365-apps/deploy/upgrade-from-msi-version" },
+       { label: "Desinstalar Microsoft 365 u Office de un PC", url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/uninstall-microsoft-365-or-office-from-a-pc" },
+       { label: "Restablecer el estado de activación de Microsoft 365", url: "https://learn.microsoft.com/es-es/previous-versions/troubleshoot/microsoft-365/microsoft-365-apps/activation/reset-office-365-proplus-activation-state" },
+       { label: "Eliminar versiones MSI anteriores con Office Deployment Tool", url: "https://learn.microsoft.com/es-es/microsoft-365-apps/deploy/upgrade-from-msi-version" },
     ],
     relatedSlugs: ["como-instalar-office-2024", "office-32-o-64-bits", "solucionar-problemas-instalacion-office"],
     updatedAt: "2026-07-30",
@@ -584,8 +584,8 @@ export const guides: Guide[] = [
       url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/download-install-or-reinstall-microsoft-365-or-office-2024-on-a-pc-or-mac",
     },
     officialSources: [
-      { label: "Elegir entre Office de 32 o 64 bits", url: "https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261" },
-      { label: "Desinstalar Microsoft 365 u Office de un PC", url: "https://support.microsoft.com/en-us/office/uninstall-microsoft-365-or-office-from-a-pc" },
+       { label: "Elegir entre Office de 32 o 64 bits", url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/choose-between-the-64-bit-or-32-bit-version-of-office" },
+       { label: "Desinstalar Microsoft 365 u Office de un PC", url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/uninstall-microsoft-365-or-office-from-a-pc" },
       { label: "Solucionar problemas de instalación de Office", url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/troubleshoot-installing-office" },
     ],
     relatedSlugs: ["limpiar-office-antes-de-instalar", "office-32-o-64-bits", "como-instalar-office-2024"],

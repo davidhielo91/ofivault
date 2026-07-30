@@ -1,6 +1,6 @@
 import { Cpu, ExternalLink, TriangleAlert } from "lucide-react";
 
-const microsoftGuide = "https://support.microsoft.com/en-us/office/use-the-office-offline-installer-f0a85fe7-118f-41cb-a791-d59cef96ad1c";
+const microsoftGuide = "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/use-the-office-offline-installer";
 
 export function ArchitectureInfo() {
   return (

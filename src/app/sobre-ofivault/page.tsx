@@ -27,7 +27,7 @@ const sources = [
   },
   {
     label: "Elegir entre Office de 32 o 64 bits",
-    url: "https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261",
+    url: "https://support.microsoft.com/es-es/office/lifecycle/officeinstall/choose-between-the-64-bit-or-32-bit-version-of-office",
   },
 ];
 
