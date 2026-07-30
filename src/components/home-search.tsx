@@ -36,7 +36,7 @@ export function HomeSearch({ destinations }: HomeSearchProps) {
 
   function submitSearch() {
     if (!normalizedQuery) {
-      setFeedback("Escribí una versión o edición para buscar.");
+      setFeedback("Escribe una versión o edición para buscar.");
       return;
     }
 
@@ -54,9 +54,9 @@ export function HomeSearch({ destinations }: HomeSearchProps) {
 
     if (results.length > 1) {
       setIsOpen(true);
-      setFeedback("Elegí una de las opciones disponibles.");
+      setFeedback("Elige una de las opciones disponibles.");
     } else {
-      setFeedback("No encontramos esa versión. Probá con un año o una edición diferente.");
+      setFeedback("No encontramos esa versión. Prueba con otro año o una edición diferente.");
     }
   }
 
@@ -141,7 +141,7 @@ export function HomeSearch({ destinations }: HomeSearchProps) {
           </div>
         )}
       </div>
-      <p className="search-helper">Buscá por año, edición o producto. Por ejemplo: Office 2024, Visio 2019 o ProPlus 2021.</p>
+      <p className="search-helper">Busca por año, edición o producto. Por ejemplo: Office 2024, Visio 2019 o ProPlus 2021.</p>
       <p className="search-feedback" aria-live="polite">{feedback}</p>
     </form>
   );

@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, Layers3, ShieldCheck } from "lucide-react";
+import { ArrowRight, BookOpen, CircleHelp, ExternalLink, Layers3, ShieldCheck } from "lucide-react";
 import { getCatalogCategories, getCatalogCategory } from "@/lib/catalog";
+import { formatProductName } from "@/lib/display";
+import { getGuide } from "@/lib/guides";
+import { office2024Faqs, office2024GuideSlugs } from "@/lib/office-2024";
 import { siteUrl } from "@/lib/site";
 
 type PageProps = {
@@ -17,8 +20,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!category) return {};
 
-  const title = `Descargar ${category.software}: todas las ediciones`;
-  const description = `Explorá todas las ediciones disponibles de ${category.software} y elegí el instalador que necesitás en español u otros idiomas.`;
+  const isOffice2024 = category.softwareSlug === "office-2024";
+  const title = isOffice2024
+    ? "Descargar Office 2024: ProPlus, Project y Visio"
+    : `Descargar ${category.software}: instaladores por edición`;
+  const description = isOffice2024
+    ? "Descarga Office 2024 ProPlus, Project o Visio en español y otros idiomas. Imágenes IMG para Windows desde servidores de Microsoft."
+    : `Explora los instaladores offline de ${category.software} por edición. Elige español u otro idioma y descarga la imagen IMG correspondiente.`;
   const canonical = `/descargar/${category.softwareSlug}`;
 
   return {
@@ -48,18 +56,29 @@ export default async function CategoryPage({ params }: PageProps) {
     category.entries.flatMap((entry) => entry.installers.map((installer) => installer.language)),
   );
   const canonicalUrl = `${siteUrl}/descargar/${category.softwareSlug}`;
+  const isOffice2024 = category.softwareSlug === "office-2024";
+  const office2024Guides = office2024GuideSlugs
+    .map((slug) => getGuide(slug))
+    .filter((guide) => guide !== undefined);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: `Descargar ${category.software}`,
-    description: `Ediciones e instaladores disponibles de ${category.software}.`,
+    description: `Ediciones e instaladores offline disponibles de ${category.software}.`,
     url: canonicalUrl,
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
+        { "@type": "ListItem", position: 2, name: category.software, item: canonicalUrl },
+      ],
+    },
     mainEntity: {
       "@type": "ItemList",
       itemListElement: category.entries.map((entry, index) => ({
         "@type": "ListItem",
         position: index + 1,
-        name: `${entry.software} ${entry.version}`,
+        name: `${entry.software} ${formatProductName(entry.version)}`,
         url: `${canonicalUrl}/${entry.versionSlug}`,
       })),
     },
@@ -79,8 +98,9 @@ export default async function CategoryPage({ params }: PageProps) {
           <p className="eyebrow"><ShieldCheck size={16} aria-hidden="true" /> Catálogo verificado</p>
           <h1 id="category-title">Descargar {category.software}</h1>
           <p>
-            Elegí la edición que necesitás. En la siguiente página podrás seleccionar español
-            u otro idioma disponible y descargar el instalador correspondiente.
+            {isOffice2024
+              ? "Elige Office 2024 ProPlus, Project o Visio. Después podrás seleccionar español u otro idioma y descargar el archivo IMG correspondiente para Windows."
+              : "Elige la edición que necesitas. En la siguiente página podrás seleccionar español u otro idioma y descargar el instalador offline correspondiente."}
           </p>
         </div>
         <dl className="category-stats" aria-label={`Resumen de ${category.software}`}>
@@ -93,14 +113,14 @@ export default async function CategoryPage({ params }: PageProps) {
         <div className="section-heading">
           <div>
             <p className="eyebrow"><Layers3 size={16} aria-hidden="true" /> Ediciones disponibles</p>
-            <h2 id="editions-title">¿Cuál necesitás?</h2>
+            <h2 id="editions-title">¿Cuál necesitas?</h2>
           </div>
         </div>
         <div className="edition-grid">
           {category.entries.map((entry) => (
             <article className="edition-card" key={entry.versionSlug}>
               <p>{entry.software}</p>
-              <h3>{entry.version}</h3>
+              <h3>{formatProductName(entry.version)}</h3>
               <span>{entry.installers.length} idiomas disponibles</span>
               <Link href={`/descargar/${entry.softwareSlug}/${entry.versionSlug}`}>
                 Ver descargas <ArrowRight size={17} aria-hidden="true" />
@@ -110,9 +130,76 @@ export default async function CategoryPage({ params }: PageProps) {
         </div>
       </section>
 
+      {isOffice2024 && (
+        <>
+          <section className="office-2024-help" aria-labelledby="office-2024-help-title">
+            <div className="section-heading">
+              <div>
+                <p className="eyebrow"><BookOpen size={16} aria-hidden="true" /> Antes de descargar</p>
+                <h2 id="office-2024-help-title">Prepara la instalación de Office 2024</h2>
+              </div>
+              <Link href="/guias">Ver todas las guías <ArrowRight size={17} aria-hidden="true" /></Link>
+            </div>
+            <dl className="office-2024-facts" aria-label="Datos clave de las descargas de Office 2024">
+              <div><dt>Plataforma</dt><dd>Windows</dd></div>
+              <div><dt>Formato</dt><dd>Archivo IMG</dd></div>
+              <div><dt>Arquitecturas</dt><dd>32 y 64 bits</dd></div>
+              <div><dt>Formato de uso</dt><dd>Instalador</dd></div>
+            </dl>
+            <div className="guide-link-grid office-2024-guide-links">
+              {office2024Guides.map((guide) => (
+                <Link key={guide.slug} href={`/guias/${guide.slug}`}>
+                  <span><strong>{guide.shortTitle}</strong><small>{guide.description}</small></span>
+                  <ArrowRight size={18} aria-hidden="true" />
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          <section className="category-faq" aria-labelledby="office-2024-faq-title">
+            <div className="category-faq-heading">
+              <p className="eyebrow"><CircleHelp size={16} aria-hidden="true" /> Preguntas frecuentes</p>
+              <h2 id="office-2024-faq-title">Dudas sobre Office 2024</h2>
+              <p>Respuestas breves sobre requisitos, ediciones, activación e instalación antes de iniciar la descarga.</p>
+            </div>
+            <div className="category-faq-list">
+              {office2024Faqs.map((item) => (
+                <details key={item.question}>
+                  <summary>{item.question}</summary>
+                  <div>
+                    <p>{item.answer}</p>
+                    {item.guideSlug && item.guideLabel && (
+                      <Link href={`/guias/${item.guideSlug}`}>
+                        {item.guideLabel} <ArrowRight size={16} aria-hidden="true" />
+                      </Link>
+                    )}
+                  </div>
+                </details>
+              ))}
+            </div>
+            <div className="optional-license-cta">
+              <p className="eyebrow">Opción adicional</p>
+              <p>
+                La descarga y la activación son procesos separados. Si ya tienes una opción de activación,
+                puedes continuar. Si necesitas una licencia, {" "}
+                <a href="https://cidfetcher.de/" target="_blank" rel="noopener">consulta una opción de compra</a>.
+              </p>
+            </div>
+            <a
+              className="guide-source"
+              href="https://support.microsoft.com/es-es/office/lifecycle/office-2024-and-office-ltsc-2024-faq"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Consultar las preguntas frecuentes oficiales de Microsoft <ExternalLink size={16} aria-hidden="true" />
+            </a>
+          </section>
+        </>
+      )}
+
       <section className="other-categories" aria-labelledby="other-versions-title">
         <p className="eyebrow">Otras versiones</p>
-        <h2 id="other-versions-title">Explorá otra versión de Office</h2>
+        <h2 id="other-versions-title">Explora otra versión de Office</h2>
         <div>
           {otherCategories.map((candidate) => (
             <Link key={candidate.softwareSlug} href={`/descargar/${candidate.softwareSlug}`}>

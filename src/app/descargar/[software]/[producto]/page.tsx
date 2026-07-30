@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ExternalLink, ShieldCheck } from "lucide-react";
+import { ArrowRight, BookOpen, ExternalLink, ShieldCheck } from "lucide-react";
 import { ArchitectureInfo } from "@/components/architecture-info";
 import { LanguageDownloadSelector } from "@/components/language-download-selector";
 import { getCatalogEntry, getCatalogEntries } from "@/lib/catalog";
+import { formatProductName } from "@/lib/display";
+import { getGuide } from "@/lib/guides";
 import { siteUrl } from "@/lib/site";
 
 type PageProps = {
@@ -20,11 +22,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!entry) return {};
 
-  const title = `Descargar ${entry.software} ${entry.version}`;
+  const productTitle = `${entry.software} ${formatProductName(entry.version)}`;
+  const title = `Descargar ${productTitle}: instalador offline`;
   const hasConfirmedArchitectures = entry.software !== "Office 2013";
   const description = hasConfirmedArchitectures
-    ? `Descargá ${entry.software} ${entry.version} en el idioma que necesitás. El archivo IMG incluye instaladores de 32 y 64 bits.`
-    : `Descargá ${entry.software} ${entry.version} en el idioma que necesitás. Enlaces verificados y directos desde el CDN oficial.`;
+    ? `Instalador offline de ${productTitle} en español y otros idiomas. Descarga IMG verificada desde servidores de Microsoft, con opciones de 32 y 64 bits.`
+    : `Instalador offline de ${productTitle} en español y otros idiomas. Descarga IMG verificada directamente desde servidores de Microsoft.`;
   const canonical = `/descargar/${entry.softwareSlug}/${entry.versionSlug}`;
 
   return {
@@ -47,42 +50,66 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
 
   if (!entry) notFound();
 
+  const productName = formatProductName(entry.version);
+  const productTitle = `${entry.software} ${productName}`;
   const hasConfirmedArchitectures = entry.software !== "Office 2013";
   const allEntries = await getCatalogEntries();
   const relatedEntries = allEntries
     .filter((candidate) => candidate.software === entry.software && candidate.version !== entry.version)
     .slice(0, 4);
+  const guideSlugs = entry.software === "Office 2024"
+    ? entry.versionSlug === "office-proplus"
+      ? ["office-2024-professional-plus", "como-instalar-office-2024", "requisitos-office-2024"]
+      : ["como-instalar-office-2024", "requisitos-office-2024", "office-32-o-64-bits"]
+    : ["instalador-offline-office", "office-32-o-64-bits", "como-instalar-archivo-img-office"];
+  const productGuides = guideSlugs
+    .map((guideSlug) => getGuide(guideSlug))
+    .filter((guide) => guide !== undefined);
   const canonicalUrl = `${siteUrl}/descargar/${entry.softwareSlug}/${entry.versionSlug}`;
-  const jsonLd = {
+  const spanishInstaller = entry.installers.find(
+    (installer) => installer.language.localeCompare("Español", "es", { sensitivity: "base" }) === 0,
+  );
+  const structuredData = [{
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: `${entry.software} ${entry.version}`,
+    name: productTitle,
     applicationCategory: "BusinessApplication",
     operatingSystem: "Windows",
+    softwareVersion: entry.software,
+    downloadUrl: (spanishInstaller ?? entry.installers[0]).url,
+    inLanguage: entry.installers.map((installer) => installer.language),
     description: hasConfirmedArchitectures
-      ? `Página de descarga de ${entry.software} ${entry.version} con ${entry.installers.length} idiomas e instaladores de 32 y 64 bits.`
-      : `Página de descarga de ${entry.software} ${entry.version} con ${entry.installers.length} idiomas disponibles.`,
+      ? `Instalador offline de ${productTitle} con ${entry.installers.length} idiomas y opciones de 32 y 64 bits.`
+      : `Instalador offline de ${productTitle} con ${entry.installers.length} idiomas disponibles.`,
     url: canonicalUrl,
-  };
+  }, {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: entry.software, item: `${siteUrl}/descargar/${entry.softwareSlug}` },
+      { "@type": "ListItem", position: 3, name: productName, item: canonicalUrl },
+    ],
+  }];
 
   return (
     <main id="contenido" className="product-page">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <nav className="breadcrumbs" aria-label="Ruta de navegación">
         <Link href="/">Inicio</Link>
         <span aria-hidden="true">/</span>
         <Link href={`/descargar/${entry.softwareSlug}`}>{entry.software}</Link>
         <span aria-hidden="true">/</span>
-        <span aria-current="page">{entry.version}</span>
+        <span aria-current="page">{productName}</span>
       </nav>
 
       <section className="product-hero" aria-labelledby="product-title">
         <div>
           <p className="eyebrow"><ShieldCheck size={16} aria-hidden="true" /> Enlace verificado</p>
-          <h1 id="product-title">Descargar {entry.software} {entry.version}</h1>
+          <h1 id="product-title">Descargar {productTitle}</h1>
           <p>
-            Elegí un idioma para obtener el instalador de {entry.version}. El archivo se descarga
-            directamente desde el CDN oficial.
+            Elige un idioma para obtener el instalador offline de {productTitle}. La imagen IMG
+            se descarga directamente desde servidores de Microsoft.
           </p>
         </div>
         <dl className="product-stat">
@@ -94,18 +121,30 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
       <section className="download-panel" aria-labelledby="download-title">
         <div>
           <p className="eyebrow">Paso 1</p>
-          <h2 id="download-title">Elegí el idioma de instalación</h2>
-          <p className="panel-description">El enlace se actualiza según la selección. Asegurate de contar con una licencia válida antes de instalar.</p>
+          <h2 id="download-title">Elige el idioma de instalación</h2>
+          <p className="panel-description">El botón de descarga se actualiza automáticamente al seleccionar un idioma. Descarga el archivo IMG correspondiente al producto elegido.</p>
         </div>
         <LanguageDownloadSelector
           installers={entry.installers}
           initialLanguage={idioma}
-          software={entry.software}
-          version={entry.version}
+          productTitle={productTitle}
         />
       </section>
 
       {hasConfirmedArchitectures && <ArchitectureInfo />}
+
+      <section className="product-guides" aria-labelledby="product-guides-title">
+        <p className="eyebrow"><BookOpen size={16} aria-hidden="true" /> Ayuda para instalar</p>
+        <h2 id="product-guides-title">Resuelve las dudas antes de empezar</h2>
+        <div className="guide-link-grid">
+          {productGuides.map((guide) => (
+            <Link key={guide.slug} href={`/guias/${guide.slug}`}>
+              <span>{guide.shortTitle}</span>
+              <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+          ))}
+        </div>
+      </section>
 
       {relatedEntries.length > 0 && (
         <section className="related-section" aria-labelledby="related-title">
@@ -114,7 +153,7 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
           <div className="related-grid">
             {relatedEntries.map((related) => (
               <Link className="related-link" key={related.versionSlug} href={`/descargar/${related.softwareSlug}/${related.versionSlug}`}>
-                <span>{related.version}</span>
+                <span>{formatProductName(related.version)}</span>
                 <ExternalLink size={17} aria-hidden="true" />
               </Link>
             ))}
@@ -122,10 +161,16 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
         </section>
       )}
 
-      <section className="license-note" aria-label="Aviso de licencia">
-        <h2>Antes de descargar</h2>
-        <p>OfiVault es un catálogo independiente. Microsoft y Office son marcas del grupo de empresas Microsoft. Usá el software únicamente con una licencia válida.</p>
-      </section>
+      {entry.software === "Office 2024" && (
+        <section className="optional-license-cta" aria-label="Opción de compra">
+          <p className="eyebrow">Opción adicional</p>
+          <p>
+            La descarga y la activación son procesos separados. Si ya tienes una opción de activación,
+            puedes continuar. Si necesitas una licencia, {" "}
+            <a href="https://cidfetcher.de/" target="_blank" rel="noopener">consulta una opción de compra</a>.
+          </p>
+        </section>
+      )}
     </main>
   );
 }

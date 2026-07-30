@@ -2,20 +2,20 @@
 
 import { useState } from "react";
 import { Download } from "lucide-react";
+import { trackInstallerDownload } from "@/lib/analytics";
 import type { Installer } from "@/lib/catalog";
+import { formatLanguageName, getDownloadDetails } from "@/lib/display";
 
 type LanguageDownloadSelectorProps = {
   installers: Installer[];
   initialLanguage?: string;
-  software: string;
-  version: string;
+  productTitle: string;
 };
 
 export function LanguageDownloadSelector({
   installers,
   initialLanguage,
-  software,
-  version,
+  productTitle,
 }: LanguageDownloadSelectorProps) {
   const spanishInstaller = installers.find(
     (installer) => installer.language.localeCompare("Español", "es", { sensitivity: "base" }) === 0,
@@ -26,6 +26,8 @@ export function LanguageDownloadSelector({
   const [selectedId, setSelectedId] = useState(initialInstaller.id);
   const selectedInstaller = installers.find((installer) => installer.id === selectedId)
     ?? initialInstaller;
+  const selectedLanguage = formatLanguageName(selectedInstaller.language);
+  const downloadDetails = getDownloadDetails(selectedInstaller.url);
 
   function selectLanguage(installerId: string) {
     const installer = installers.find((candidate) => candidate.id === installerId);
@@ -53,26 +55,40 @@ export function LanguageDownloadSelector({
           onChange={(event) => selectLanguage(event.target.value)}
         >
           {installers.map((installer) => (
-            <option key={installer.id} value={installer.id}>{installer.language}</option>
+            <option key={installer.id} value={installer.id}>{formatLanguageName(installer.language)}</option>
           ))}
         </select>
       </div>
       <div className="download-callout">
         <div aria-live="polite" aria-atomic="true">
           <p className="eyebrow">Listo para descargar</p>
-          <p className="selected-language">{selectedInstaller.language}</p>
-          <p>{software} {version}</p>
+          <p className="selected-language">{selectedLanguage}</p>
+          <p>{productTitle}</p>
         </div>
         <a
           className="primary-download"
           href={selectedInstaller.url}
           target="_blank"
           rel="noreferrer"
-          aria-label={`Descargar ${software} ${version} en ${selectedInstaller.language}`}
+          aria-label={`Descargar ${productTitle} en ${selectedLanguage}`}
+          onClick={() => trackInstallerDownload({
+            productTitle,
+            language: selectedLanguage,
+            fileName: downloadDetails.fileName,
+            format: downloadDetails.format,
+            source: downloadDetails.source,
+            url: selectedInstaller.url,
+          })}
         >
-          Descargar en {selectedInstaller.language} <Download size={18} aria-hidden="true" />
+          Descargar en {selectedLanguage} <Download size={18} aria-hidden="true" />
         </a>
       </div>
+      <dl className="download-details" aria-label="Detalles del archivo seleccionado">
+        <div><dt>Archivo</dt><dd>{downloadDetails.fileName}</dd></div>
+        <div><dt>Formato</dt><dd>{downloadDetails.format}</dd></div>
+        <div><dt>Origen</dt><dd>{downloadDetails.source}</dd></div>
+        <div><dt>Formato de uso</dt><dd>Instalador</dd></div>
+      </dl>
     </>
   );
 }

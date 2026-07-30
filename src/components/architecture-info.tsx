@@ -10,7 +10,7 @@ export function ArchitectureInfo() {
         <h2 id="architecture-title">Una descarga para 32 y 64 bits</h2>
         <p>
           El archivo <code>.img</code> contiene ambas opciones. Después de montarlo en Windows,
-          abrí la carpeta <code>Office</code> y ejecutá el instalador que corresponda.
+          abre la carpeta <code>Office</code> y ejecuta el instalador que corresponda.
         </p>
       </div>
 
@@ -25,26 +25,26 @@ export function ArchitectureInfo() {
           <span>Compatibilidad</span>
           <h3>32 bits</h3>
           <code>Setup32.exe</code>
-          <p>Usalo en Windows de 32 bits o cuando dependas de complementos antiguos de 32 bits.</p>
+          <p>Úsalo en Windows de 32 bits o cuando dependas de complementos antiguos de 32 bits.</p>
         </article>
       </div>
 
       <ol className="architecture-steps">
-        <li>Descargá y abrí el archivo <code>.img</code> para montar la unidad virtual.</li>
-        <li>Abrí la carpeta <code>Office</code> dentro de esa unidad.</li>
-        <li>Ejecutá <code>Setup64.exe</code> o <code>Setup32.exe</code>.</li>
+        <li>Descarga y abre el archivo <code>.img</code> para montar la unidad virtual.</li>
+        <li>Abre la carpeta <code>Office</code> dentro de esa unidad.</li>
+        <li>Ejecuta <code>Setup64.exe</code> o <code>Setup32.exe</code>.</li>
       </ol>
 
       <div className="architecture-warning">
         <TriangleAlert size={20} aria-hidden="true" />
         <p>
-          No se pueden mezclar componentes de Office de 32 y 64 bits. Si ya tenés Office,
-          elegí la misma arquitectura o desinstalá la versión anterior.
+          No se pueden mezclar componentes de Office de 32 y 64 bits. Si ya tienes Office,
+          elige la misma arquitectura o desinstala la versión anterior.
         </p>
       </div>
 
       <a className="architecture-source" href={microsoftGuide} target="_blank" rel="noreferrer">
-        Consultar la guía oficial de Microsoft <ExternalLink size={16} aria-hidden="true" />
+        Consulta la guía oficial de Microsoft <ExternalLink size={16} aria-hidden="true" />
       </a>
     </section>
   );
