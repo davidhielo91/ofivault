@@ -177,14 +177,6 @@ export default async function CategoryPage({ params }: PageProps) {
                 </details>
               ))}
             </div>
-            <div className="optional-license-cta">
-              <p className="eyebrow">Opción adicional</p>
-              <p>
-                La descarga y la activación son procesos separados. Si ya tienes una opción de activación,
-                puedes continuar. Si necesitas una licencia, {" "}
-                <a href="https://cidfetcher.de/" target="_blank" rel="noopener">consulta una opción de compra</a>.
-              </p>
-            </div>
             <a
               className="guide-source"
               href="https://support.microsoft.com/es-es/office/lifecycle/office-2024-and-office-ltsc-2024-faq"

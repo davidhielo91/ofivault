@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowRight, BookOpen, ExternalLink, ShieldCheck } from "lucide-react";
 import { ArchitectureInfo } from "@/components/architecture-info";
 import { LanguageDownloadSelector } from "@/components/language-download-selector";
+import { LicenseCta } from "@/components/license-cta";
 import { getCatalogEntry, getCatalogEntries } from "@/lib/catalog";
 import { formatProductName } from "@/lib/display";
 import { getGuide } from "@/lib/guides";
@@ -133,6 +134,8 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
 
       {hasConfirmedArchitectures && <ArchitectureInfo />}
 
+      <LicenseCta productName={productTitle} />
+
       <section className="product-guides" aria-labelledby="product-guides-title">
         <p className="eyebrow"><BookOpen size={16} aria-hidden="true" /> Ayuda para instalar</p>
         <h2 id="product-guides-title">Resuelve las dudas antes de empezar</h2>
@@ -161,16 +164,6 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
         </section>
       )}
 
-      {entry.software === "Office 2024" && (
-        <section className="optional-license-cta" aria-label="Opción de compra">
-          <p className="eyebrow">Opción adicional</p>
-          <p>
-            La descarga y la activación son procesos separados. Si ya tienes una opción de activación,
-            puedes continuar. Si necesitas una licencia, {" "}
-            <a href="https://cidfetcher.de/" target="_blank" rel="noopener">consulta una opción de compra</a>.
-          </p>
-        </section>
-      )}
     </main>
   );
 }
