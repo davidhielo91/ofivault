@@ -80,7 +80,10 @@ export default function PrivacyPage() {
 
         <section className="privacy-section" aria-labelledby="privacy-contact-title">
           <p className="eyebrow">Cambios y consultas</p>
-          <h2 id="privacy-contact-title">Información del aviso</h2>
+          <h2 id="privacy-contact-title">Contacto de privacidad</h2>
+          <p>
+            HieloCode mantiene OfiVault y atiende las consultas relacionadas con privacidad en <a href="mailto:admin.ofivault@gmail.com">admin.ofivault@gmail.com</a>. Puedes escribir a esa dirección para preguntar por el uso de datos, retirar tu consentimiento o ejercer los derechos que correspondan.
+          </p>
           <p>
             Esta información describe el funcionamiento actual del sitio y se actualizará si cambia la analítica, el almacenamiento local o los servicios externos utilizados. La fecha de revisión de esta página corresponde a la versión publicada en el sitio.
           </p>
