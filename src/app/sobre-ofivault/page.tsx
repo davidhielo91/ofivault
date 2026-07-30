@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, CheckCircle2, ExternalLink, ShieldCheck } from "lucide-react";
 import { SupportLink } from "@/components/support-link";
-import { reportUrl, siteUrl } from "@/lib/site";
+import { siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Cómo verificamos las descargas",
@@ -127,9 +127,6 @@ export default function AboutOfiVaultPage() {
             ))}
           </div>
         </section>
-        <p className="report-note">
-          ¿Ves un dato incorrecto o un enlace que ya no funciona? <a href={reportUrl} target="_blank" rel="noreferrer">Repórtalo en GitHub</a>.
-        </p>
       </article>
 
       <section className="support-note" aria-labelledby="support-title">

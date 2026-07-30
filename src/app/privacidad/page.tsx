@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, ExternalLink, LockKeyhole } from "lucide-react";
-import { reportUrl, siteUrl } from "@/lib/site";
+import { siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Política de privacidad",
@@ -67,14 +67,11 @@ export default function PrivacyPage() {
 
         <section className="privacy-section" aria-labelledby="privacy-external-title">
           <p className="eyebrow">Enlaces externos</p>
-          <h2 id="privacy-external-title">Microsoft, GitHub y Ko-fi</h2>
+          <h2 id="privacy-external-title">Microsoft y Ko-fi</h2>
           <p>
-            Las descargas enlazan con infraestructura de Microsoft. También ofrecemos un enlace para reportar información incorrecta en GitHub y un apoyo voluntario en Ko-fi. Esos servicios tienen sus propias políticas de privacidad y pueden procesar datos cuando los visitas.
+            Las descargas enlazan con infraestructura de Microsoft y ofrecemos un apoyo voluntario en Ko-fi. Esos servicios tienen sus propias políticas de privacidad y pueden procesar datos cuando los visitas.
           </p>
           <div className="privacy-links">
-            <a className="guide-source" href={reportUrl} target="_blank" rel="noreferrer">
-              Reportar un problema en GitHub <ExternalLink size={16} aria-hidden="true" />
-            </a>
             <a className="guide-source" href="https://ko-fi.com/hielocode" target="_blank" rel="noreferrer">
               Visitar Ko-fi <ExternalLink size={16} aria-hidden="true" />
             </a>
