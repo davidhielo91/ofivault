@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "OfiVault, instaladores offline de Office, Project y Visio";
+export const alt = "OfiVault, encuentra tu versión de Office, Project o Visio";
 export const size = {
   width: 1200,
   height: 630,
@@ -64,19 +64,17 @@ export default function OpenGraphImage() {
                 textTransform: "uppercase",
               }}
             >
-              Descargas organizadas
+              Encuentra tu versión
             </div>
             <div style={{ display: "flex", fontSize: "66px", fontWeight: 700, letterSpacing: "-3px", lineHeight: 1.05 }}>
-              Instaladores offline de Office
+              Office, Project y Visio
             </div>
             <div style={{ color: "#d8f5ef", display: "flex", fontSize: "27px", marginTop: "22px" }}>
-              Versiones, ediciones e idiomas en un solo catálogo.
+              Instaladores offline por versión, edición e idioma.
             </div>
           </div>
           <div style={{ alignItems: "center", display: "flex", gap: "18px", fontSize: "22px" }}>
-            <span>Office</span><span style={{ color: "#8ee7da" }}>•</span>
-            <span>Project</span><span style={{ color: "#8ee7da" }}>•</span>
-            <span>Visio</span>
+            <span>Descargas IMG desde servidores de Microsoft</span>
           </div>
         </div>
       </div>

@@ -11,9 +11,15 @@ import type { SearchDestination } from "@/lib/search";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Descargar Office, Project y Visio",
-  description: "Encuentra instaladores offline verificados de Office, Project y Visio por versión, edición e idioma. Descargas IMG desde servidores de Microsoft.",
+  title: "Descargar Office, Project y Visio por versión",
+  description: "Encuentra el instalador offline de Office, Project o Visio que buscas. Busca por versión, edición e idioma y descarga el IMG desde servidores de Microsoft.",
   alternates: { canonical: "/" },
+  openGraph: {
+    title: "Descargar Office, Project y Visio por versión | OfiVault",
+    description: "Encuentra el instalador offline de Office, Project o Visio que buscas. Busca por versión, edición e idioma y descarga el IMG desde servidores de Microsoft.",
+    url: "/",
+    type: "website",
+  },
 };
 
 export default async function Home() {
