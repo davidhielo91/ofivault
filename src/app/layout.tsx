@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import { AnalyticsConsent } from "@/components/analytics-consent";
+import { LicenseContactLink } from "@/components/license-contact-link";
 import { siteUrl } from "@/lib/site";
 
 const geistSans = Geist({
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     default: "OfiVault | Instaladores offline de Office",
     template: "%s | OfiVault",
   },
-  description: "Catálogo independiente de instaladores offline verificados de Office, Project y Visio en español y otros idiomas.",
+  description: "Catálogo independiente de instaladores offline de Office, Project y Visio en español y otros idiomas.",
   applicationName: "OfiVault",
 };
 
@@ -44,10 +45,16 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="skip-link" href="#contenido">Saltar al contenido</a>
         <header className="site-header">
           <Link className="brand" href="/" aria-label="OfiVault, inicio">Ofi<span>Vault</span></Link>
-          <div className="header-meta">
+          <nav className="header-meta" aria-label="Navegación principal">
             <p>Biblioteca de instaladores</p>
             <Link href="/guias">Guías</Link>
-          </div>
+            <LicenseContactLink
+              placement="global_navigation"
+              ariaLabel="Consultas comerciales por Telegram (se abre en una pestaña nueva)"
+            >
+              Telegram
+            </LicenseContactLink>
+          </nav>
         </header>
         {children}
         <AnalyticsConsent />

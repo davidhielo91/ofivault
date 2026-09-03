@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, BookOpen, Download, Languages, MousePointerClick, Search, ShieldCheck } from "lucide-react";
 import { HomeSearch } from "@/components/home-search";
-import { SupportLink } from "@/components/support-link";
 import { getCatalogCategories } from "@/lib/catalog";
 import { formatProductName } from "@/lib/display";
 import { getGuide } from "@/lib/guides";
@@ -12,11 +11,11 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Descargar Office, Project y Visio por versión",
-  description: "Encuentra el instalador offline de Office, Project o Visio que buscas. Busca por versión, edición e idioma y descarga el IMG desde servidores de Microsoft.",
+  description: "Encuentra el instalador offline de Office, Project o Visio que buscas. Busca por versión, edición e idioma y abre el enlace IMG correspondiente.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Descargar Office, Project y Visio por versión | OfiVault",
-    description: "Encuentra el instalador offline de Office, Project o Visio que buscas. Busca por versión, edición e idioma y descarga el IMG desde servidores de Microsoft.",
+    description: "Encuentra el instalador offline de Office, Project o Visio que buscas. Busca por versión, edición e idioma y abre el enlace IMG correspondiente.",
     url: "/",
     type: "website",
   },
@@ -68,7 +67,7 @@ export default async function Home() {
           <h1 id="hero-title">Encuentra tu versión de Office.</h1>
           <p className="hero-description">
             Escribe el año o la edición de Office, Project o Visio. Te llevaremos a la página
-            correcta para elegir el idioma y descargar el instalador offline verificado.
+             correcta para elegir el idioma y descargar el instalador offline correspondiente.
           </p>
           <dl className="metrics" aria-label="Resumen del catálogo">
             <div><dt>{installers.length}</dt><dd>instaladores</dd></div>
@@ -76,20 +75,28 @@ export default async function Home() {
             <div><dt>{languages.size}</dt><dd>idiomas</dd></div>
           </dl>
         </div>
-        <aside className="hero-note" aria-label="Criterio de verificación">
+        <aside className="hero-note" aria-label="Alcance del catálogo">
           <div className="signal" aria-hidden="true"><Download size={28} /></div>
-          <p className="note-label">Enlaces verificados</p>
-          <p>Las descargas provienen de los servidores oficiales de Microsoft y están organizadas por versión, edición e idioma.</p>
+          <p className="note-label">Organizado para elegir</p>
+          <p>Compara versión, edición e idioma antes de abrir el enlace de descarga.</p>
         </aside>
       </section>
 
-      <section className="home-search-panel" aria-labelledby="search-title">
-        <div className="home-search-heading">
-          <p className="eyebrow"><Search size={16} aria-hidden="true" /> Buscador</p>
-          <h2 id="search-title">¿Qué versión necesitas?</h2>
-        </div>
-        <HomeSearch destinations={destinations} />
-      </section>
+      {categories.length === 0 ? (
+        <section className="catalog-empty" aria-labelledby="catalog-empty-title">
+          <p className="eyebrow">Sin resultados</p>
+          <h2 id="catalog-empty-title">No hay instaladores disponibles en este momento.</h2>
+          <p>Vuelve más tarde para consultar las versiones e idiomas publicados.</p>
+        </section>
+      ) : (
+        <section className="home-search-panel" aria-labelledby="search-title">
+          <div className="home-search-heading">
+            <p className="eyebrow"><Search size={16} aria-hidden="true" /> Buscador</p>
+            <h2 id="search-title">¿Qué versión necesitas?</h2>
+          </div>
+          <HomeSearch destinations={destinations} />
+        </section>
+      )}
 
       <section className="home-guide" aria-labelledby="guide-title">
         <div className="home-guide-heading">
@@ -124,9 +131,8 @@ export default async function Home() {
 
       <footer className="site-footer">
         <p>OfiVault es un catálogo independiente. Microsoft y Office son marcas del grupo de empresas Microsoft.</p>
-        <Link href="/sobre-ofivault">Cómo verificamos las descargas</Link>
+        <Link href="/sobre-ofivault">Criterios del catálogo</Link>
         <Link href="/privacidad">Privacidad</Link>
-        <SupportLink>¿Te resultó útil? Apoya el mantenimiento con un café.</SupportLink>
       </footer>
     </main>
   );

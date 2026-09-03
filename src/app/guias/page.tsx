@@ -83,11 +83,11 @@ export default function GuidesPage() {
 
       <section className="guide-trust-note" aria-labelledby="guide-trust-title">
         <p className="eyebrow"><ShieldCheck size={16} aria-hidden="true" /> Transparencia</p>
-        <h2 id="guide-trust-title">¿Cómo se comprueban las descargas?</h2>
+          <h2 id="guide-trust-title">¿Cómo se organiza el catálogo?</h2>
         <p>
-          OfiVault es un catálogo independiente. Consulta qué revisamos en cada registro y qué significa realmente un enlace verificado.
+          OfiVault es un catálogo independiente. Consulta los criterios de organización y los límites de la información mostrada.
         </p>
-        <Link href="/sobre-ofivault">Conocer el método de verificación <ArrowRight size={17} aria-hidden="true" /></Link>
+          <Link href="/sobre-ofivault">Conocer los criterios del catálogo <ArrowRight size={17} aria-hidden="true" /></Link>
       </section>
 
     </main>

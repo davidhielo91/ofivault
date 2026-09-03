@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, ExternalLink, LockKeyhole } from "lucide-react";
+import { LicenseContactLink } from "@/components/license-contact-link";
 import { siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -55,6 +56,9 @@ export default function PrivacyPage() {
           <p>
             No enviamos nombres, correos electrónicos, claves de producto ni el contenido de tus archivos. Puedes retirar la decisión borrando el almacenamiento local del sitio y volver a elegir en el siguiente aviso.
           </p>
+          <p>
+            Los eventos de consulta por Telegram se limitan a la página, la ubicación del enlace, el producto, la versión y el idioma seleccionado cuando está disponible. No incluyen el mensaje, el identificador de Telegram, la URL completa ni datos personales.
+          </p>
         </section>
 
         <section className="privacy-section" aria-labelledby="privacy-storage-title">
@@ -67,15 +71,10 @@ export default function PrivacyPage() {
 
         <section className="privacy-section" aria-labelledby="privacy-external-title">
           <p className="eyebrow">Enlaces externos</p>
-          <h2 id="privacy-external-title">Microsoft y Ko-fi</h2>
+          <h2 id="privacy-external-title">Servicios externos</h2>
           <p>
-            Las descargas enlazan con infraestructura de Microsoft y ofrecemos un apoyo voluntario en Ko-fi. Esos servicios tienen sus propias políticas de privacidad y pueden procesar datos cuando los visitas.
+            Los enlaces externos tienen sus propias políticas de privacidad y pueden procesar datos cuando los visitas.
           </p>
-          <div className="privacy-links">
-            <a className="guide-source" href="https://ko-fi.com/hielocode" target="_blank" rel="noreferrer">
-              Visitar Ko-fi <ExternalLink size={16} aria-hidden="true" />
-            </a>
-          </div>
         </section>
 
         <section className="privacy-section" aria-labelledby="privacy-contact-title">
@@ -83,6 +82,10 @@ export default function PrivacyPage() {
           <h2 id="privacy-contact-title">Contacto de privacidad</h2>
           <p>
             HieloCode mantiene OfiVault y atiende las consultas relacionadas con privacidad en <a href="mailto:admin.ofivault@gmail.com">admin.ofivault@gmail.com</a>. Puedes escribir a esa dirección para preguntar por el uso de datos, retirar tu consentimiento o ejercer los derechos que correspondan.
+          </p>
+          <p>
+            Este correo no atiende consultas sobre licencias, ventas ni elección de productos. Para esas consultas, escribe únicamente por{" "}
+            <LicenseContactLink placement="global_navigation" ariaLabel="Consultar por Telegram (se abre en una pestaña nueva)">Telegram <ExternalLink size={16} aria-hidden="true" /></LicenseContactLink>.
           </p>
           <p>
             Esta información describe el funcionamiento actual del sitio y se actualizará si cambia la analítica, el almacenamiento local o los servicios externos utilizados. La fecha de revisión de esta página corresponde a la versión publicada en el sitio.
@@ -93,7 +96,7 @@ export default function PrivacyPage() {
       <section className="guide-catalog-cta">
         <div>
           <p className="eyebrow">Transparencia</p>
-          <h2>Conoce cómo revisamos las descargas</h2>
+          <h2>Conoce los criterios del catálogo</h2>
         </div>
         <Link href="/sobre-ofivault">
           Ver metodología <ArrowRight size={17} aria-hidden="true" />

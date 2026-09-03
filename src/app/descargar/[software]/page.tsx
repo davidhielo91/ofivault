@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ? "Descargar Office 2024: ProPlus, Project y Visio"
     : `Descargar ${category.software}: instaladores por edición`;
   const description = isOffice2024
-    ? "Descarga Office 2024 ProPlus, Project o Visio en español y otros idiomas. Imágenes IMG para Windows desde servidores de Microsoft."
+    ? "Descarga Office 2024 ProPlus, Project o Visio en español y otros idiomas. Imágenes IMG para Windows por edición e idioma."
     : `Explora los instaladores offline de ${category.software} por edición. Elige español u otro idioma y descarga la imagen IMG correspondiente.`;
   const canonical = `/descargar/${category.softwareSlug}`;
 
@@ -95,7 +95,7 @@ export default async function CategoryPage({ params }: PageProps) {
 
       <section className="category-hero" aria-labelledby="category-title">
         <div>
-          <p className="eyebrow"><ShieldCheck size={16} aria-hidden="true" /> Catálogo verificado</p>
+          <p className="eyebrow"><ShieldCheck size={16} aria-hidden="true" /> Catálogo por edición</p>
           <h1 id="category-title">Descargar {category.software}</h1>
           <p>
             {isOffice2024
@@ -183,7 +183,7 @@ export default async function CategoryPage({ params }: PageProps) {
               target="_blank"
               rel="noreferrer"
             >
-              Consultar las preguntas frecuentes oficiales de Microsoft <ExternalLink size={16} aria-hidden="true" />
+              Consultar las preguntas frecuentes de Microsoft <ExternalLink size={16} aria-hidden="true" />
             </a>
           </section>
         </>

@@ -43,7 +43,7 @@ export async function getInstallers(): Promise<Installer[]> {
   const token = process.env.AIRTABLE_TOKEN;
 
   if (!token) {
-    return [];
+    throw new Error("El catálogo no está disponible.");
   }
 
   const installers: Installer[] = [];

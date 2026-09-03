@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { ArrowRight, BookOpen, ExternalLink, ShieldCheck } from "lucide-react";
 import { ArchitectureInfo } from "@/components/architecture-info";
 import { LanguageDownloadSelector } from "@/components/language-download-selector";
-import { LicenseCta } from "@/components/license-cta";
 import { getCatalogEntry, getCatalogEntries } from "@/lib/catalog";
 import { formatProductName } from "@/lib/display";
 import { getGuide } from "@/lib/guides";
@@ -27,8 +26,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = `Descargar ${productTitle}: instalador offline`;
   const hasConfirmedArchitectures = entry.software !== "Office 2013";
   const description = hasConfirmedArchitectures
-    ? `Instalador offline de ${productTitle} en español y otros idiomas. Descarga IMG verificada desde servidores de Microsoft, con opciones de 32 y 64 bits.`
-    : `Instalador offline de ${productTitle} en español y otros idiomas. Descarga IMG verificada directamente desde servidores de Microsoft.`;
+    ? `Instalador offline de ${productTitle} en español y otros idiomas, con opciones de 32 y 64 bits.`
+    : `Instalador offline de ${productTitle} en español y otros idiomas.`;
   const canonical = `/descargar/${entry.softwareSlug}/${entry.versionSlug}`;
 
   return {
@@ -106,11 +105,11 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
 
       <section className="product-hero" aria-labelledby="product-title">
         <div>
-          <p className="eyebrow"><ShieldCheck size={16} aria-hidden="true" /> Enlace verificado</p>
+          <p className="eyebrow"><ShieldCheck size={16} aria-hidden="true" /> Instalador por idioma</p>
           <h1 id="product-title">Descargar {productTitle}</h1>
           <p>
             Elige un idioma para obtener el instalador offline de {productTitle}. La imagen IMG
-            se descarga directamente desde servidores de Microsoft.
+            está disponible mediante el enlace mostrado para ese idioma.
           </p>
         </div>
         <dl className="product-stat">
@@ -128,13 +127,13 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
         <LanguageDownloadSelector
           installers={entry.installers}
           initialLanguage={idioma}
+          productName={entry.software}
           productTitle={productTitle}
+          productVersion={productName}
         />
       </section>
 
       {hasConfirmedArchitectures && <ArchitectureInfo />}
-
-      <LicenseCta productName={productTitle} />
 
       <section className="product-guides" aria-labelledby="product-guides-title">
         <p className="eyebrow"><BookOpen size={16} aria-hidden="true" /> Ayuda para instalar</p>

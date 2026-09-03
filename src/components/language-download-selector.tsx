@@ -4,18 +4,23 @@ import { useState } from "react";
 import { Download } from "lucide-react";
 import { trackInstallerDownload } from "@/lib/analytics";
 import type { Installer } from "@/lib/catalog";
+import { LicenseCta } from "@/components/license-cta";
 import { formatLanguageName, getDownloadDetails } from "@/lib/display";
 
 type LanguageDownloadSelectorProps = {
   installers: Installer[];
   initialLanguage?: string;
+  productName: string;
   productTitle: string;
+  productVersion: string;
 };
 
 export function LanguageDownloadSelector({
   installers,
   initialLanguage,
+  productName,
   productTitle,
+  productVersion,
 }: LanguageDownloadSelectorProps) {
   const spanishInstaller = installers.find(
     (installer) => installer.language.localeCompare("Español", "es", { sensitivity: "base" }) === 0,
@@ -89,6 +94,12 @@ export function LanguageDownloadSelector({
         <div><dt>Origen</dt><dd>{downloadDetails.source}</dd></div>
         <div><dt>Formato de uso</dt><dd>Instalador</dd></div>
       </dl>
+      <LicenseCta
+        productName={productName}
+        productTitle={productTitle}
+        productVersion={productVersion}
+        selectedLanguage={selectedLanguage}
+      />
     </>
   );
 }

@@ -74,7 +74,7 @@ export default function OpenGraphImage() {
             </div>
           </div>
           <div style={{ alignItems: "center", display: "flex", gap: "18px", fontSize: "22px" }}>
-            <span>Descargas IMG desde servidores de Microsoft</span>
+            <span>Instaladores offline por versión e idioma</span>
           </div>
         </div>
       </div>

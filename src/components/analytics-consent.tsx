@@ -3,26 +3,24 @@
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
 import { GoogleAnalytics } from "@/components/google-analytics";
-
-const consentStorageKey = "ofivault-analytics-consent";
-const consentChangeEvent = "ofivault-consent-change";
+import { analyticsConsentChangeEvent, analyticsConsentStorageKey } from "@/lib/analytics";
 
 function getStoredConsent(): "accepted" | "denied" | "pending" {
-  const storedConsent = window.localStorage.getItem(consentStorageKey);
+  const storedConsent = window.localStorage.getItem(analyticsConsentStorageKey);
   return storedConsent === "accepted" || storedConsent === "denied" ? storedConsent : "pending";
 }
 
 function subscribeToConsent(callback: () => void) {
-  window.addEventListener(consentChangeEvent, callback);
-  return () => window.removeEventListener(consentChangeEvent, callback);
+  window.addEventListener(analyticsConsentChangeEvent, callback);
+  return () => window.removeEventListener(analyticsConsentChangeEvent, callback);
 }
 
 export function AnalyticsConsent() {
   const consent = useSyncExternalStore(subscribeToConsent, getStoredConsent, () => "pending");
 
   function chooseConsent(value: "accepted" | "denied") {
-    window.localStorage.setItem(consentStorageKey, value);
-    window.dispatchEvent(new Event(consentChangeEvent));
+    window.localStorage.setItem(analyticsConsentStorageKey, value);
+    window.dispatchEvent(new Event(analyticsConsentChangeEvent));
   }
 
   return (
