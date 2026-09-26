@@ -1,8 +1,8 @@
 # OfiVault
 
-Independent catalog of verified Microsoft Office installer links, organized by version, product, and language.
+Independent catalog of verified Microsoft Office installer links, organized by version, product, and language. Catalog data is versioned in `src/data/installers.json` and does not depend on a runtime API.
 
-Each version and product has an indexable canonical URL at `/descargar/{version}/{product}`, with a language selector and direct download link. `sitemap.xml` and `robots.txt` are generated from Airtable catalog data.
+Each version and product has an indexable canonical URL at `/descargar/{version}/{product}`, with a language selector and direct download link. `sitemap.xml` and `robots.txt` are generated from local catalog data.
 
 The homepage uses an accessible autocomplete search over version categories and product pages. General searches such as `Office 2021` open `/descargar/office-2021`, while specific searches such as `Office 2021 ProPlus` open the corresponding product page.
 
@@ -10,15 +10,10 @@ Confirmed product pages from Office 2016 onward explain that each IMG contains b
 
 ## Local setup
 
-1. Copy `.env.example` to `.env.local` and add a read-only Airtable personal access token.
-2. Run `npm install`.
-3. Run `npm run dev`.
+1. Run `npm install`.
+2. Run `npm run dev`.
 
-## Environment variables
-
-- `AIRTABLE_TOKEN`: Airtable token with `data.records:read` access to the catalog base.
-- `AIRTABLE_BASE_ID`: Airtable base identifier.
-- `AIRTABLE_TABLE_ID`: Airtable table identifier.
+To update the catalog, edit `src/data/installers.json`, run `npm run lint` and `npm run build`, then deploy.
 
 ## Legal notice
 

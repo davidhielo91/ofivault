@@ -14,7 +14,13 @@ type PageProps = {
   searchParams: Promise<{ idioma?: string }>;
 };
 
-export const dynamic = "force-dynamic";
+export async function generateStaticParams() {
+  const entries = await getCatalogEntries();
+  return entries.map((entry) => ({
+    software: entry.softwareSlug,
+    producto: entry.versionSlug,
+  }));
+}
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { software, producto } = await params;

@@ -1,4 +1,5 @@
 import "server-only";
+import catalogData from "@/data/installers.json";
 import { toSlug } from "@/lib/slug";
 
 export type Installer = {
@@ -23,64 +24,32 @@ export type CatalogCategory = {
   entries: CatalogEntry[];
 };
 
-type AirtableResponse = {
-  records: Array<{
-    id: string;
-    fields: {
-      Software?: string;
-      "Versión"?: string;
-      Idioma?: string;
-      Enlace?: string;
-    };
-  }>;
-  offset?: string;
-};
+const installers: Installer[] = catalogData.map((installer, index) => {
+  let installerUrl: URL;
 
-const baseId = process.env.AIRTABLE_BASE_ID ?? "appIix15QoC2lLNM6";
-const tableId = process.env.AIRTABLE_TABLE_ID ?? "tblmcaYIOgs70S4TD";
-
-export async function getInstallers(): Promise<Installer[]> {
-  const token = process.env.AIRTABLE_TOKEN;
-
-  if (!token) {
-    throw new Error("El catálogo no está disponible.");
+  try {
+    installerUrl = new URL(installer.url);
+  } catch {
+    throw new Error(`URL inválida en catálogo local: ${index + 1}`);
   }
 
-  const installers: Installer[] = [];
-  let offset: string | undefined;
+  if (
+    !installer.id ||
+    !installer.software ||
+    !installer.version ||
+    !installer.language ||
+    installerUrl.protocol !== "https:" ||
+    installerUrl.hostname !== "officecdn.microsoft.com" ||
+    !installerUrl.pathname.toLowerCase().endsWith(".img")
+  ) {
+    throw new Error(`Registro inválido en catálogo local: ${index + 1}`);
+  }
 
-  do {
-    const url = new URL(`https://api.airtable.com/v0/${baseId}/${tableId}`);
-    url.searchParams.set("pageSize", "100");
-    if (offset) url.searchParams.set("offset", offset);
+  return installer;
+});
 
-    const response = await fetch(url, {
-      headers: { Authorization: `Bearer ${token}` },
-      cache: "no-store",
-    });
-
-    if (!response.ok) {
-      throw new Error("No se pudo leer el catálogo de instaladores.");
-    }
-
-    const page = (await response.json()) as AirtableResponse;
-    for (const record of page.records) {
-      const { Software, "Versión": version, Idioma, Enlace } = record.fields;
-      if (Software && version && Idioma && Enlace) {
-        installers.push({
-          id: record.id,
-          software: Software,
-          version,
-          language: Idioma,
-          url: Enlace,
-        });
-      }
-    }
-
-    offset = page.offset;
-  } while (offset);
-
-  return installers.sort((a, b) =>
+export async function getInstallers(): Promise<Installer[]> {
+  return [...installers].sort((a, b) =>
     `${a.software}-${a.version}-${a.language}`.localeCompare(
       `${b.software}-${b.version}-${b.language}`,
       "es",

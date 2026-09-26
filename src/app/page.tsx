@@ -7,8 +7,6 @@ import { formatProductName } from "@/lib/display";
 import { getGuide } from "@/lib/guides";
 import type { SearchDestination } from "@/lib/search";
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Descargar Office, Project y Visio por versión",
   description: "Encuentra el instalador offline de Office, Project o Visio que buscas. Busca por versión, edición e idioma y abre el enlace IMG correspondiente.",

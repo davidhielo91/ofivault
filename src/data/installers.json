@@ -1,0 +1,1892 @@
+[
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AUnVtYW5vAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3JvLXJvL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Rumano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ro-ro/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWZyL1Zpc2lvUHJvMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAERhbsOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kYS1kay9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Danés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/da-dk/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZGUtZGUvVmlzaW9Qcm9SZXRhaWwuaW1n",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcnUtcnUvSG9tZUJ1c2luZXNzUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8AQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtY24vUHJvamVjdFByb1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ARmluw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZpLWZpL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Finés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fi-fi/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ASXRhbGlhbm8AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvaXQtaXQvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Italiano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/it-it/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZnItZnIvUHJvUGx1czIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMATm9ydWVnbyBib2ttw6VsAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL25iLW5vL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Noruego bokmål",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/nb-no/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBBbGVtw6FuAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2RlLWRlL08zNjVQcm9QbHVzUmV0YWlsLmltZw",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWZyL0hvbWVCdXNpbmVzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvZGUtZGUvSG9tZUJ1c2luZXNzUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/de-de/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABBbGVtw6FuAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2RlLWRlL1Byb2Zlc3Npb25hbFJldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/de-de/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ARXNsb3Zlbm8AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvc2wtc2kvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Esloveno",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sl-si/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARnJhbmPDqXMgKENhbmFkw6EpAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWNhL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Francés (Canadá)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-ca/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvamEtanAvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AVWNyYW5pYW5vAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3VrLXVhL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Ucraniano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/uk-ua/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtY24vUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWZyL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbi11cy9Qcm9QbHVzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kZS1kZS9Qcm9qZWN0UHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAFBvbGFjbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wbC1wbC9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Polaco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pl-pl/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABDaGlubyAoTWFuZGFyw61uKQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS96aC1jbi9Qcm9mZXNzaW9uYWxSZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/zh-cn/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8ARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZnItZnIvUHJvamVjdFByb1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARXNwYcOxb2wgKE3DqXhpY28pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLW14L1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Español (México)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-mx/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AQ29yZWFubwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9rby1rci9Qcm9qZWN0UHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Coreano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ko-kr/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMASW5nbMOpcyAoUmVpbm8gVW5pZG8pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VuLWdiL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Inglés (Reino Unido)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-gb/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEVzbG92YWNvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3NrLXNrL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Eslovaco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sk-sk/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWZyL1Zpc2lvUHJvUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8ASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvamEtanAvUHJvamVjdFBybzIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZW4tdXMvVmlzaW9Qcm8yMDIxUmV0YWlsLmltZw",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AQ2hpbm8gKFRyYWRpY2lvbmFsKQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS96aC10dy9Qcm9qZWN0UHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Chino (Tradicional)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-tw/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMASGVicmVvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2hlLWlsL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Hebreo",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/he-il/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8ASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbi11cy9Qcm9qZWN0UHJvMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBIaW5kaQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9oaS1pbi9PMzY1UHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hi-in/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZnItZnIvUHJvUGx1czIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbi11cy9Qcm9QbHVzMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1ici9Qcm9qZWN0UHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZXMtZXMvUHJvUGx1czIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8Aw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2FyLXNhL1Byb2plY3RQcm8yMDE5UmV0YWlsLmltZw",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvcnUtcnUvVmlzaW9Qcm9SZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ru-ru/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAQsO6bGdhcm8AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvYmctYmcvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Búlgaro",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/bg-bg/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAVHVyY28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvdHItdHIvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Turco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/tr-tr/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8AUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ydS1ydS9Qcm9qZWN0UHJvMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9hci1zYS9WaXNpb1Byb1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZGUtZGUvVmlzaW9Qcm8yMDE5UmV0YWlsLmltZw",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAUG9ydHVndcOqcyAoUG9ydHVnYWwpAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3B0LXB0L1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Português (Portugal)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-pt/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcHQtYnIvVmlzaW9Qcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZW4tdXMvSG9tZUJ1c2luZXNzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcnUtcnUvVmlzaW9Qcm8yMDIxUmV0YWlsLmltZw",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZW4tdXMvQWNjZXNzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2phLWpwL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABQb3J0dWd1w6pzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL3B0LWJyL1Byb2Zlc3Npb25hbFJldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/pt-br/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBFc3Bhw7FvbABodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lcy1lcy9PMzY1UHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWZyL0hvbWVCdXNpbmVzczIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3poLWNuL0hvbWVCdXNpbmVzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAENoaW5vIChUcmFkaWNpb25hbCkAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtdHcvVmlzaW9Qcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Chino (Tradicional)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-tw/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ydS1ydS9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ARXNsb3ZhY28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvc2stc2svUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Eslovaco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sk-sk/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZGUtZGUvSG9tZUJ1c2luZXNzUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvcHQtYnIvVmlzaW9Qcm9SZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/pt-br/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZGUtZGUvSG9tZUJ1c2luZXNzMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLWVzL0FjY2VzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9hci1zYS9WaXNpb1Byb1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ar-sa/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZW4tdXMvVmlzaW9Qcm8yMDE5UmV0YWlsLmltZw",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcHQtYnIvSG9tZUJ1c2luZXNzUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABKYXBvbsOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9qYS1qcC9Qcm9mZXNzaW9uYWxSZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ja-jp/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3poLWNuL1Zpc2lvUHJvUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMAUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ydS1ydS9Qcm9QbHVzUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ASMO6bmdhcm8AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvaHUtaHUvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Húngaro",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hu-hu/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARXNsb3ZhY28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvc2stc2svUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Eslovaco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sk-sk/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9hci1zYS9BY2Nlc3MyMDE5UmV0YWlsLmltZw",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMASGluZGkAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvaGktaW4vUHJvUGx1czIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hi-in/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMAQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtY24vUHJvUGx1czIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AUG9sYWNvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3BsLXBsL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Polaco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pl-pl/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMASW5kb25lc2lvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2lkLWlkL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Indonesio",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/id-id/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8AUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ydS1ydS9Qcm9qZWN0UHJvUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9hci1zYS9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBQb3J0dWd1w6pzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3B0LWJyL08zNjVQcm9QbHVzUmV0YWlsLmltZw",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcHQtYnIvSG9tZUJ1c2luZXNzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2phLWpwL1Zpc2lvUHJvUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ja-jp/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAR3JpZWdvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VsLWdyL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Griego",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/el-gr/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZnItZnIvUHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAFJ1bWFubwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9yby1yby9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Rumano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ro-ro/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMAUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ydS1ydS9Qcm9QbHVzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLWVzL1Zpc2lvUHJvUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEZpbsOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9maS1maS9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Finés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fi-fi/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEjDum5nYXJvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2h1LWh1L1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Húngaro",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hu-hu/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLWVzL1Zpc2lvUHJvMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMASXRhbGlhbm8AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvaXQtaXQvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Italiano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/it-it/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBDaGlubyAoTWFuZGFyw61uKQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS96aC1jbi9PMzY1UHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2phLWpwL0FjY2VzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMATGl0dWFubwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9sdC1sdC9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Lituano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/lt-lt/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcHQtYnIvVmlzaW9Qcm8yMDE5UmV0YWlsLmltZw",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8AQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kZS1kZS9Qcm9qZWN0UHJvUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMAUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ydS1ydS9Qcm9QbHVzMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2VzLWVzL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/es-es/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvamEtanAvUHJvUGx1czIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZGUtZGUvVmlzaW9Qcm8yMDIxUmV0YWlsLmltZw",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8ARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZnItZnIvUHJvamVjdFBybzIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8AUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1ici9Qcm9qZWN0UHJvUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMAUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1ici9Qcm9QbHVzMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9hci1zYS9WaXNpb1BybzIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8ARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZXMtZXMvUHJvamVjdFByb1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcnUtcnUvSG9tZUJ1c2luZXNzMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMATWFsYXlvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL21zLW15L1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Malayo",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ms-my/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWZyL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMASGluZGkAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvaGktaW4vUHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hi-in/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AVHVyY28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvdHItdHIvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Turco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/tr-tr/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZXMtZXMvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2phLWpwL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAEhpbmRpAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2hpLWluL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/hi-in/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZW4tdXMvSG9tZUJ1c2luZXNzUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9hci1zYS9Ib21lQnVzaW5lc3MyMDE5UmV0YWlsLmltZw",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMATmVlcmxhbmTDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvbmwtbmwvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Neerlandés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/nl-nl/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8AQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvemgtY24vUHJvamVjdFByb1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/zh-cn/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AQ2hlY28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvY3MtY3ovUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Checo",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/cs-cz/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcHQtYnIvVmlzaW9Qcm9SZXRhaWwuaW1n",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8ARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZnItZnIvUHJvamVjdFBybzIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AR3JpZWdvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VsLWdyL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Griego",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/el-gr/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8ARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZXMtZXMvUHJvamVjdFBybzIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8ASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvamEtanAvUHJvamVjdFBybzIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMASMO6bmdhcm8AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvaHUtaHUvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Húngaro",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hu-hu/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAU3VlY28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvc3Ytc2UvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Sueco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sv-se/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMASGluZGkAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvaGktaW4vUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hi-in/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABFc3Bhw7FvbABodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9lcy1lcy9Qcm9mZXNzaW9uYWxSZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/es-es/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8Aw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2FyLXNhL1Byb2plY3RQcm9SZXRhaWwuaW1n",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLWVzL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwDDgXJhYmUAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvYXItc2EvTzM2NVByb1BsdXNSZXRhaWwuaW1n",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZW4tdXMvSG9tZUJ1c2luZXNzMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8AUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9wdC1ici9Qcm9qZWN0UHJvUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/pt-br/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLWVzL0hvbWVCdXNpbmVzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAEhpbmRpAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2hpLWluL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hi-in/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2VzLWVzL1Zpc2lvUHJvUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/es-es/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8AQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9kZS1kZS9Qcm9qZWN0UHJvUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/de-de/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcnUtcnUvQWNjZXNzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMAQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kZS1kZS9Qcm9QbHVzUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ASGVicmVvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2hlLWlsL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Hebreo",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/he-il/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvcHQtYnIvSG9tZUJ1c2luZXNzUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/pt-br/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMAw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2FyLXNhL1Byb1BsdXNSZXRhaWwuaW1n",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2phLWpwL0hvbWVCdXNpbmVzczIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARmluw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZpLWZpL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Finés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fi-fi/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8Aw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2FyLXNhL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcnUtcnUvVmlzaW9Qcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8Aw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2FyLXNhL1Byb2plY3RQcm8yMDIxUmV0YWlsLmltZw",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2ZyLWZyL1Zpc2lvUHJvUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/fr-fr/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMAUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1ici9Qcm9QbHVzUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL3poLWNuL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/zh-cn/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3poLWNuL0hvbWVCdXNpbmVzczIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1ici9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWZyL0FjY2VzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZnItZnIvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8ARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZXMtZXMvUHJvamVjdFBybzIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBSdXNvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3J1LXJ1L08zNjVQcm9QbHVzUmV0YWlsLmltZw",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvamEtanAvUHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8AUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ydS1ydS9Qcm9qZWN0UHJvMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABJbmdsw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2VuLXVzL1Byb2Zlc3Npb25hbFJldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/en-us/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3poLWNuL1Zpc2lvUHJvMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbADDgXJhYmUAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvYXItc2EvUHJvZmVzc2lvbmFsUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ar-sa/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3poLWNuL1Zpc2lvUHJvMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbi11cy9Qcm9qZWN0UHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARGFuw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2RhLWRrL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Danés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/da-dk/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARXNsb3Zlbm8AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvc2wtc2kvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Esloveno",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sl-si/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMATGV0w7NuAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2x2LWx2L1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Letón",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/lv-lv/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8ASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbi11cy9Qcm9qZWN0UHJvUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ydS1ydS9Qcm9qZWN0UHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcnUtcnUvVmlzaW9Qcm9SZXRhaWwuaW1n",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2phLWpwL1Zpc2lvUHJvMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBGcmFuY8OpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9mci1mci9PMzY1UHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kZS1kZS9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAENvcmVhbm8AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEva28ta3IvVmlzaW9Qcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Coreano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ko-kr/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AUG9ydHVndcOqcyAoUG9ydHVnYWwpAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3B0LXB0L1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Português (Portugal)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-pt/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMAQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtY24vUHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8ASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9lbi11cy9Qcm9qZWN0UHJvUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/en-us/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZW4tdXMvVmlzaW9Qcm9SZXRhaWwuaW1n",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvcnUtcnUvSG9tZUJ1c2luZXNzUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ru-ru/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9hci1zYS9Ib21lQnVzaW5lc3NSZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ar-sa/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEVzbG92ZW5vAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3NsLXNpL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Esloveno",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sl-si/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAFR1cmNvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3RyLXRyL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Turco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/tr-tr/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAUHJvamVjdCBQcm8ASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvamEtanAvUHJvamVjdFByb1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Project Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvZW4tdXMvVmlzaW9Qcm9SZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/en-us/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8Aw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2FyLXNhL1Byb2plY3RQcm9SZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ar-sa/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEhlYnJlbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9oZS1pbC9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Hebreo",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/he-il/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8AUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1ici9Qcm9qZWN0UHJvMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABGcmFuY8OpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9mci1mci9Qcm9mZXNzaW9uYWxSZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/fr-fr/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAVmlzaW8gUHJvAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2phLWpwL1Zpc2lvUHJvUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Visio Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvZW4tdXMvSG9tZUJ1c2luZXNzUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/en-us/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLWVzL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMAUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1ici9Qcm9QbHVzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEl0YWxpYW5vAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2l0LWl0L1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Italiano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/it-it/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8ARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvZXMtZXMvUHJvamVjdFByb1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/es-es/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtY24vUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9hci1zYS9WaXNpb1BybzIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2phLWpwL0hvbWVCdXNpbmVzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEdyaWVnbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbC1nci9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Griego",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/el-gr/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAVmlldG5hbWl0YQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS92aS12bi9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Vietnamita",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/vi-vn/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMAQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kZS1kZS9Qcm9QbHVzMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8AUG9ydHVndcOqcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1ici9Qcm9qZWN0UHJvMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ARGFuw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2RhLWRrL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Danés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/da-dk/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ATmVlcmxhbmTDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvbmwtbmwvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Neerlandés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/nl-nl/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZnItZnIvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3poLWNuL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABSdXNvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL3J1LXJ1L1Byb2Zlc3Npb25hbFJldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ru-ru/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3poLWNuL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAS2F6YWpvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2trLWt6L1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Kazajo",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/kk-kz/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAU2VyYmlvIChsYXRpbm8pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3NyLWxhdG4tcnMvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Serbio (latino)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sr-latn-rs/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMAQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtY24vUHJvUGx1czIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvamEtanAvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMAQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kZS1kZS9Qcm9QbHVzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZXMtZXMvUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMASGluZGkAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvaGktaW4vUHJvUGx1czIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hi-in/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvamEtanAvUHJvUGx1czIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAQ2hlY28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvY3MtY3ovUHJvUGx1czIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Checo",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/cs-cz/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAQ2hpbm8gKFRyYWRpY2lvbmFsKQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS96aC10dy9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Chino (Tradicional)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-tw/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8AQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtY24vUHJvamVjdFBybzIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvZGUtZGUvVmlzaW9Qcm9SZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/de-de/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZGUtZGUvVmlzaW9Qcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAVGFpbGFuZMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS90aC10aC9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Tailandés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/th-th/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAQ29yZWFubwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9rby1rci9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Coreano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ko-kr/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8ATm9ydWVnbyBib2ttw6VsAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL25iLW5vL1Byb2plY3RQcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Noruego bokmål",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/nb-no/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2FyLXNhL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAEhpbmRpAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2hpLWluL0hvbWVCdXNpbmVzczIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hi-in/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8ASmFwb27DqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvamEtanAvUHJvamVjdFByb1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ja-jp/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAUG9sYWNvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3BsLXBsL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Polaco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pl-pl/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAEluZ2zDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZW4tdXMvVmlzaW9Qcm8yMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAE5vcnVlZ28gYm9rbcOlbABodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9uYi1uby9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Noruego bokmål",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/nb-no/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZXMtZXMvUHJvUGx1czIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAEhpbmRpAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2hpLWluL0hvbWVCdXNpbmVzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hi-in/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMARXN0b25pbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9ldC1lZS9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Estonio",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/et-ee/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZGUtZGUvQWNjZXNzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcnUtcnUvVmlzaW9Qcm8yMDE5UmV0YWlsLmltZw",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2phLWpwL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ja-jp/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBKYXBvbsOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9qYS1qcC9PMzY1UHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDM2NQBPZmZpY2UgUHJvUGx1cwBJbmdsw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VuLXVzL08zNjVQcm9QbHVzUmV0YWlsLmltZw",
+    "software": "Office 365",
+    "version": "Office ProPlus",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/O365ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAVmlzaW8gUHJvAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL3poLWNuL1Zpc2lvUHJvUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Visio Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/zh-cn/VisioProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAUHJvamVjdCBQcm8AU3VlY28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvc3Ytc2UvUHJvamVjdFBybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Project Pro",
+    "language": "Sueco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sv-se/ProjectPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAT2ZmaWNlIFByb1BsdXMAw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2FyLXNhL1Byb1BsdXMyMDE5UmV0YWlsLmltZw",
+    "software": "Office 2019",
+    "version": "Office ProPlus",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/ProPlus2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8AQ2hpbm8gKE1hbmRhcsOtbikAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvemgtY24vUHJvamVjdFBybzIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8AUnVzbwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9ydS1ydS9Qcm9qZWN0UHJvUmV0YWlsLmltZw",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/ru-ru/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAUnVtYW5vAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3JvLXJvL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Rumano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ro-ro/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAEphcG9uw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2phLWpwL1Zpc2lvUHJvMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Japonés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ja-jp/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8ASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbi11cy9Qcm9qZWN0UHJvMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAUHJvamVjdCBQcm8AQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kZS1kZS9Qcm9qZWN0UHJvMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Project Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/ProjectPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAVmlzaW8gUHJvAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLWVzL1Zpc2lvUHJvMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Visio Pro",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/VisioPro2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAEFsZW3DoW4AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZGUtZGUvSG9tZUJ1c2luZXNzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAT2ZmaWNlIFByb2Zlc3Npb25hbABIaW5kaQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzM5MTY4RDdFLTA3N0ItNDhFNy04NzJDLUIyMzJDM0U3MjY3NS9tZWRpYS9oaS1pbi9Qcm9mZXNzaW9uYWxSZXRhaWwuaW1n",
+    "software": "Office 2013",
+    "version": "Office Professional",
+    "language": "Hindi",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/hi-in/ProfessionalRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbi11cy9Qcm9QbHVzMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAFVjcmFuaWFubwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS91ay11YS9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Ucraniano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/uk-ua/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkASG9tZSAmIEJ1c2luZXNzAFJ1c28AaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcnUtcnUvSG9tZUJ1c2luZXNzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Home & Business",
+    "language": "Ruso",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ru-ru/HomeBusiness2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcHQtYnIvQWNjZXNzMjAxOVJldGFpbC5pbWc",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAT2ZmaWNlIFByb1BsdXMAw4FyYWJlAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2FyLXNhL1Byb1BsdXMyMDIxUmV0YWlsLmltZw",
+    "software": "Office 2021",
+    "version": "Office ProPlus",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/ProPlus2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9hci1zYS9Ib21lQnVzaW5lc3MyMDIxUmV0YWlsLmltZw",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYASG9tZSAmIEJ1c2luZXNzAMOBcmFiZQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9hci1zYS9Ib21lQnVzaW5lc3NSZXRhaWwuaW1n",
+    "software": "Office 2016",
+    "version": "Home & Business",
+    "language": "Árabe",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-sa/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAFBvcnR1Z3XDqnMgKFBvcnR1Z2FsKQBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9wdC1wdC9WaXNpb1BybzIwMjRSZXRhaWwuaW1n",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Português (Portugal)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-pt/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMAUHJvamVjdCBQcm8ARnJhbmPDqXMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi8zOTE2OEQ3RS0wNzdCLTQ4RTctODcyQy1CMjMyQzNFNzI2NzUvbWVkaWEvZnItZnIvUHJvamVjdFByb1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Project Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/fr-fr/ProjectProRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAQ3JvYXRhAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2hyLWhyL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Croata",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/hr-hr/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAENoZWNvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2NzLWN6L1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Checo",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/cs-cz/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcHQtYnIvSG9tZUJ1c2luZXNzMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAUHJvamVjdCBQcm8AQWxlbcOhbgBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9kZS1kZS9Qcm9qZWN0UHJvMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Project Pro",
+    "language": "Alemán",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/de-de/ProjectPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTMASG9tZSAmIEJ1c2luZXNzAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvMzkxNjhEN0UtMDc3Qi00OEU3LTg3MkMtQjIzMkMzRTcyNjc1L21lZGlhL2ZyLWZyL0hvbWVCdXNpbmVzc1JldGFpbC5pbWc",
+    "software": "Office 2013",
+    "version": "Home & Business",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/39168D7E-077B-48E7-872C-B232C3E72675/media/fr-fr/HomeBusinessRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTkAQWNjZXNzAENoaW5vIChNYW5kYXLDrW4pAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3poLWNuL0FjY2VzczIwMTlSZXRhaWwuaW1n",
+    "software": "Office 2019",
+    "version": "Access",
+    "language": "Chino (Mandarín)",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/Access2019Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMASW5nbMOpcwBodHRwczovL29mZmljZWNkbi5taWNyb3NvZnQuY29tL2RiLzQ5MjM1MEY2LTNBMDEtNEY5Ny1COUMwLUM3QzZEREY2N0Q2MC9tZWRpYS9lbi11cy9Qcm9QbHVzUmV0YWlsLmltZw",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Inglés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAFBvcnR1Z3XDqnMAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvcHQtYnIvVmlzaW9Qcm8yMDIxUmV0YWlsLmltZw",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Português",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-br/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEASG9tZSAmIEJ1c2luZXNzAEVzcGHDsW9sAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2VzLWVzL0hvbWVCdXNpbmVzczIwMjFSZXRhaWwuaW1n",
+    "software": "Office 2021",
+    "version": "Home & Business",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/HomeBusiness2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjEAVmlzaW8gUHJvAEZyYW5jw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL2ZyLWZyL1Zpc2lvUHJvMjAyMVJldGFpbC5pbWc",
+    "software": "Office 2021",
+    "version": "Visio Pro",
+    "language": "Francés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-fr/VisioPro2021Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMTYAT2ZmaWNlIFByb1BsdXMARXNwYcOxb2wAaHR0cHM6Ly9vZmZpY2VjZG4ubWljcm9zb2Z0LmNvbS9kYi80OTIzNTBGNi0zQTAxLTRGOTctQjlDMC1DN0M2RERGNjdENjAvbWVkaWEvZXMtZXMvUHJvUGx1c1JldGFpbC5pbWc",
+    "software": "Office 2016",
+    "version": "Office ProPlus",
+    "language": "Español",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProPlusRetail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAFN1ZWNvAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3N2LXNlL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Sueco",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/sv-se/VisioPro2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAT2ZmaWNlIFByb1BsdXMAVWNyYW5pYW5vAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL3VrLXVhL1Byb1BsdXMyMDI0UmV0YWlsLmltZw",
+    "software": "Office 2024",
+    "version": "Office ProPlus",
+    "language": "Ucraniano",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/uk-ua/ProPlus2024Retail.img"
+  },
+  {
+    "id": "installer-T2ZmaWNlIDIwMjQAVmlzaW8gUHJvAE5lZXJsYW5kw6lzAGh0dHBzOi8vb2ZmaWNlY2RuLm1pY3Jvc29mdC5jb20vZGIvNDkyMzUwRjYtM0EwMS00Rjk3LUI5QzAtQzdDNkRERjY3RDYwL21lZGlhL25sLW5sL1Zpc2lvUHJvMjAyNFJldGFpbC5pbWc",
+    "software": "Office 2024",
+    "version": "Visio Pro",
+    "language": "Neerlandés",
+    "url": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/nl-nl/VisioPro2024Retail.img"
+  }
+]

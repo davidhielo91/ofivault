@@ -12,7 +12,10 @@ type PageProps = {
   params: Promise<{ software: string }>;
 };
 
-export const dynamic = "force-dynamic";
+export async function generateStaticParams() {
+  const categories = await getCatalogCategories();
+  return categories.map((category) => ({ software: category.softwareSlug }));
+}
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { software } = await params;
