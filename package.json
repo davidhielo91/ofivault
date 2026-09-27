@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "catalog:import": "node scripts/import-catalog.mjs"
+    "catalog:import": "node scripts/import-catalog.mjs",
+    "verify:deploy": "node scripts/verify-deploy.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
