@@ -96,6 +96,20 @@ export default async function Home() {
         </section>
       )}
 
+      {categories.length > 0 && (
+        <section className="other-categories" aria-labelledby="all-versions-title">
+          <p className="eyebrow">Todas las versiones</p>
+          <h2 id="all-versions-title">Explora el catálogo por versión</h2>
+          <div>
+            {categories.map((category) => (
+              <Link key={category.softwareSlug} href={`/descargar/${category.softwareSlug}`}>
+                {category.software}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className="home-guide" aria-labelledby="guide-title">
         <div className="home-guide-heading">
           <p className="eyebrow">Cómo funciona</p>

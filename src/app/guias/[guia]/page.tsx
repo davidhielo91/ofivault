@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AlertTriangle, ArrowRight, CheckCircle2, ExternalLink, ShieldCheck } from "lucide-react";
 import { getGuide, guides } from "@/lib/guides";
-import { siteUrl } from "@/lib/site";
+import { defaultOgImage, siteUrl } from "@/lib/site";
 
 type PageProps = {
   params: Promise<{ guia: string }>;
@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: guide.description,
       url: canonical,
       type: "article",
+      images: [defaultOgImage],
     },
   };
 }

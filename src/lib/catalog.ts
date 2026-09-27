@@ -48,6 +48,12 @@ const installers: Installer[] = catalogData.map((installer, index) => {
   return installer;
 });
 
+// Installer URLs contain the locale folder, e.g. /media/es-es/ → "es-ES".
+export function getInstallerLocale(installer: Installer) {
+  const locale = new URL(installer.url).pathname.match(/\/media\/([^/]+)\//)?.[1];
+  return locale ? Intl.getCanonicalLocales(locale)[0] : installer.language;
+}
+
 export async function getInstallers(): Promise<Installer[]> {
   return [...installers].sort((a, b) =>
     `${a.software}-${a.version}-${a.language}`.localeCompare(

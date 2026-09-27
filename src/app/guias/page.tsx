@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, BookOpen, ShieldCheck } from "lucide-react";
 import { guides } from "@/lib/guides";
-import { siteUrl } from "@/lib/site";
+import { defaultOgImage, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Guías de Office 2024, instalación y compatibilidad",
@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     description: "Resuelve dudas sobre Office 2024, instaladores offline, archivos IMG, licencias y arquitecturas.",
     url: "/guias",
     type: "website",
+    images: [defaultOgImage],
   },
 };
 

@@ -6,11 +6,13 @@ import { getCatalogCategories, getCatalogCategory } from "@/lib/catalog";
 import { formatProductName } from "@/lib/display";
 import { getGuide } from "@/lib/guides";
 import { office2024Faqs, office2024GuideSlugs } from "@/lib/office-2024";
-import { siteUrl } from "@/lib/site";
+import { defaultOgImage, siteUrl } from "@/lib/site";
 
 type PageProps = {
   params: Promise<{ software: string }>;
 };
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const categories = await getCatalogCategories();
@@ -41,6 +43,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       url: canonical,
       type: "website",
+      images: [defaultOgImage],
     },
   };
 }

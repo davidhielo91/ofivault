@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, CheckCircle2, ExternalLink, ShieldCheck } from "lucide-react";
-import { siteUrl } from "@/lib/site";
+import { defaultOgImage, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Criterios del catálogo",
@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     description: "Conoce cómo OfiVault organiza los registros de Office, Project y Visio y los límites de la información mostrada.",
     url: "/sobre-ofivault",
     type: "article",
+    images: [defaultOgImage],
   },
 };
 
