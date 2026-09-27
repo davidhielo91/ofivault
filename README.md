@@ -28,9 +28,50 @@ The script validates every row with the same rules as the build, rejects duplica
 
 ## Deployment
 
-The site is deployed with Coolify from the `Dockerfile` in the repository root. Next.js builds with `output: "standalone"`, and the container runs the Node server on port `3000`. No environment variables are required.
+The site runs as a single Docker container built from the `Dockerfile` in the repository root. Next.js builds with `output: "standalone"`, and the container runs the Node server on port `3000` with a built-in healthcheck. No environment variables or external services are required. The GA4 ID (`G-1889M26C3V`, no GTM) is in `src/lib/analytics.ts`.
 
-In Coolify, create an application from this repository with the **Dockerfile** build pack, expose port `3000`, and set the domains to `https://ofivault.de,https://www.ofivault.de`. The app itself redirects `www` to the apex domain with a 308 and sends HSTS and basic security headers (see `next.config.ts`).
+### What lives in the code and what doesn't
+
+These travel with the repository and apply on any host:
+
+- `www` → apex redirect (308, path and query kept), HSTS, `nosniff` and `Referrer-Policy` headers: `next.config.ts`.
+- Real 404s for unknown versions, products and guides: `dynamicParams = false` in the route files.
+- Catalog, guides, sitemap and robots.txt: generated from `src/data` and `src/lib`.
+
+These are platform settings and must be configured on every new host:
+
+- Domains, DNS and TLS certificates.
+- The **permanent** `http` → `https` redirect. The reverse proxy handles it before the request reaches the app. Don't move it into the app: behind Cloudflare in "Flexible" mode it would cause a redirect loop.
+
+### Coolify
+
+1. Create an application from this GitHub repository, branch `main`, with the **Dockerfile** build pack.
+2. Set the exposed port to `3000` and the domains to `https://ofivault.de,https://www.ofivault.de`. Coolify issues a Let's Encrypt certificate per domain.
+3. Enable **Auto Deploy**. A deploy takes about 5 minutes on a 2 vCPU VPS.
+4. Make the `http` → `https` redirect permanent. Coolify's default is a temporary 307. In **Configuration → General → Container Labels**, add a middleware with a name unique to this app:
+
+   ```
+   traefik.http.middlewares.ofivault-redirect-https.redirectscheme.scheme=https
+   traefik.http.middlewares.ofivault-redirect-https.redirectscheme.permanent=true
+   ```
+
+   Then, in the labels of the two `http` routers (`traefik.http.routers.http-<n>-<uuid>.middlewares=...`), replace `redirect-to-https` with `ofivault-redirect-https`. Leave the `https` routers unchanged. Router names include a Coolify-generated ID, so copy them from the existing labels.
+
+   Don't set `permanent=true` on the shared `redirect-to-https` middleware. Traefik middleware names are global to the proxy, and other apps on the same server (such as kimiya-cafe) define it as temporary. Traefik then rejects the conflicting definition, and `http` requests return 404.
+5. Redeploy.
+
+### DNS (Cloudflare)
+
+- `A` records for `@` and `www` pointing to the server IP.
+- If the records are proxied (orange cloud), set SSL/TLS to **Full (strict)**. Never use "Flexible".
+
+### Other hosts
+
+Any platform that runs a Docker image works. Run the image, route traffic to port `3000`, and make sure the reverse proxy:
+
+- terminates TLS for both `ofivault.de` and `www.ofivault.de`;
+- redirects `http` to `https` with a 301 or 308;
+- forwards the original `Host` header, which the `www` redirect needs.
 
 To test the image locally:
 
@@ -38,6 +79,19 @@ To test the image locally:
 docker build -t ofivault .
 docker run --rm -p 3000:3000 ofivault
 ```
+
+### After every deploy or migration
+
+Run the deployment check from any machine with Node.js:
+
+```sh
+npm run verify:deploy                          # https://ofivault.de
+npm run verify:deploy -- https://example.com   # another deployment
+```
+
+It checks the permanent `http` → `https` and `www` redirects, the security headers, robots.txt, that every sitemap URL returns 200 with one `h1`, a matching canonical and an `og:image`, and that unknown URLs return 404. It exits with code 1 if anything fails.
+
+When the site moves to a new host or domain, resubmit `https://ofivault.de/sitemap.xml` in Google Search Console.
 
 ## Legal notice
 
