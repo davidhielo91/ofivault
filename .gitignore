@@ -5,6 +5,5 @@ out/
 !.env.example
 *.tsbuildinfo
 *.log
-.vercel/
 .codegraph/
 .atl/
