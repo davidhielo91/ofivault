@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+.git
+.gitignore
+.dockerignore
+Dockerfile
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+.codegraph
+.atl
+design-system
+scripts
+README.md
