@@ -30,7 +30,7 @@ The script validates every row with the same rules as the build, rejects duplica
 
 The site is deployed with Coolify from the `Dockerfile` in the repository root. Next.js builds with `output: "standalone"`, and the container runs the Node server on port `3000`. No environment variables are required.
 
-In Coolify, create an application from this repository with the **Dockerfile** build pack, expose port `3000`, and set the domain to `https://ofivault.de`.
+In Coolify, create an application from this repository with the **Dockerfile** build pack, expose port `3000`, and set the domains to `https://ofivault.de,https://www.ofivault.de`. The app itself redirects `www` to the apex domain with a 308 and sends HSTS and basic security headers (see `next.config.ts`).
 
 To test the image locally:
 
