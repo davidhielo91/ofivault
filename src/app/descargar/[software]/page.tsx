@@ -7,6 +7,7 @@ import { formatProductName } from "@/lib/display";
 import { getGuide } from "@/lib/guides";
 import { office2024Faqs, office2024GuideSlugs } from "@/lib/office-2024";
 import { defaultOgImage, siteUrl } from "@/lib/site";
+import { getVersionContent } from "@/lib/version-content";
 
 type PageProps = {
   params: Promise<{ software: string }>;
@@ -64,6 +65,10 @@ export default async function CategoryPage({ params }: PageProps) {
   const canonicalUrl = `${siteUrl}/descargar/${category.softwareSlug}`;
   const isOffice2024 = category.softwareSlug === "office-2024";
   const office2024Guides = office2024GuideSlugs
+    .map((slug) => getGuide(slug))
+    .filter((guide) => guide !== undefined);
+  const content = getVersionContent(category.softwareSlug);
+  const contentGuides = (content?.guideSlugs ?? [])
     .map((slug) => getGuide(slug))
     .filter((guide) => guide !== undefined);
   const jsonLd = {
@@ -190,6 +195,62 @@ export default async function CategoryPage({ params }: PageProps) {
               rel="noreferrer"
             >
               Consultar las preguntas frecuentes de Microsoft <ExternalLink size={16} aria-hidden="true" />
+            </a>
+          </section>
+        </>
+      )}
+
+      {content && (
+        <>
+          <section className="office-2024-help" aria-labelledby="version-help-title">
+            <div className="section-heading">
+              <div>
+                <p className="eyebrow"><BookOpen size={16} aria-hidden="true" /> Antes de descargar</p>
+                <h2 id="version-help-title">Prepara la instalación de {category.software}</h2>
+              </div>
+              <Link href="/guias">Ver todas las guías <ArrowRight size={17} aria-hidden="true" /></Link>
+            </div>
+            <div className="version-summary">
+              {content.summary.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            </div>
+            <dl className="office-2024-facts" aria-label={`Datos clave de las descargas de ${category.software}`}>
+              {content.facts.map((fact) => (
+                <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>
+              ))}
+            </dl>
+            <div className="guide-link-grid office-2024-guide-links">
+              {contentGuides.map((guide) => (
+                <Link key={guide.slug} href={`/guias/${guide.slug}`}>
+                  <span><strong>{guide.shortTitle}</strong><small>{guide.description}</small></span>
+                  <ArrowRight size={18} aria-hidden="true" />
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          <section className="category-faq" aria-labelledby="version-faq-title">
+            <div className="category-faq-heading">
+              <p className="eyebrow"><CircleHelp size={16} aria-hidden="true" /> Preguntas frecuentes</p>
+              <h2 id="version-faq-title">Dudas sobre {category.software}</h2>
+              <p>Respuestas breves sobre soporte, ediciones, compatibilidad e instalación antes de iniciar la descarga.</p>
+            </div>
+            <div className="category-faq-list">
+              {content.faqs.map((item) => (
+                <details key={item.question}>
+                  <summary>{item.question}</summary>
+                  <div>
+                    <p>{item.answer}</p>
+                    {item.guideSlug && item.guideLabel && (
+                      <Link href={`/guias/${item.guideSlug}`}>
+                        {item.guideLabel} <ArrowRight size={16} aria-hidden="true" />
+                      </Link>
+                    )}
+                  </div>
+                </details>
+              ))}
+            </div>
+            <a className="guide-source" href={content.source.url} target="_blank" rel="noreferrer">
+              Consultar: {content.source.label} <ExternalLink size={16} aria-hidden="true" />
             </a>
           </section>
         </>

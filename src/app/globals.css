@@ -172,6 +172,8 @@ h1 { font-size: clamp(2.55rem, 6vw, 4.5rem); line-height: 1.02; letter-spacing: 
 .office-2024-facts dt { color: #8ee7da; font-family: var(--font-mono); font-size: .68rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .office-2024-facts dd { font-size: .95rem; font-weight: 600; margin: .2rem 0 0; }
 .office-2024-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.version-summary { margin-bottom: 1.5rem; max-width: 760px; }
+.version-summary p { color: var(--muted-ink); font-size: 1.02rem; line-height: 1.65; margin: 0 0 .9rem; }
 .category-faq { border-top: 1px solid var(--line); margin-top: 4rem; padding-top: 3rem; }
 .category-faq-heading h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: -.04em; line-height: 1.08; margin: 0; }
 .category-faq-heading > p:last-child { color: var(--muted-ink); margin: .8rem 0 0; max-width: 700px; }
