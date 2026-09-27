@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, ExternalLink, LockKeyhole } from "lucide-react";
 import { LicenseContactLink } from "@/components/license-contact-link";
-import { siteUrl } from "@/lib/site";
+import { defaultOgImage, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Política de privacidad",
@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     description: "Información sobre analítica, almacenamiento local, enlaces externos y privacidad en OfiVault.",
     url: "/privacidad",
     type: "article",
+    images: [defaultOgImage],
   },
 };
 

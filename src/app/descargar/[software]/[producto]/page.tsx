@@ -4,15 +4,17 @@ import { notFound } from "next/navigation";
 import { ArrowRight, BookOpen, ExternalLink, ShieldCheck } from "lucide-react";
 import { ArchitectureInfo } from "@/components/architecture-info";
 import { LanguageDownloadSelector } from "@/components/language-download-selector";
-import { getCatalogEntry, getCatalogEntries } from "@/lib/catalog";
+import { getCatalogEntry, getCatalogEntries, getInstallerLocale } from "@/lib/catalog";
 import { formatProductName } from "@/lib/display";
 import { getGuide } from "@/lib/guides";
-import { siteUrl } from "@/lib/site";
+import { defaultOgImage, siteUrl } from "@/lib/site";
 
 type PageProps = {
   params: Promise<{ software: string; producto: string }>;
   searchParams: Promise<{ idioma?: string }>;
 };
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const entries = await getCatalogEntries();
@@ -45,6 +47,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       url: canonical,
       type: "website",
+      images: [defaultOgImage],
     },
   };
 }
@@ -83,7 +86,7 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
     operatingSystem: "Windows",
     softwareVersion: entry.software,
     downloadUrl: (spanishInstaller ?? entry.installers[0]).url,
-    inLanguage: entry.installers.map((installer) => installer.language),
+    inLanguage: entry.installers.map(getInstallerLocale),
     description: hasConfirmedArchitectures
       ? `Instalador offline de ${productTitle} con ${entry.installers.length} idiomas y opciones de 32 y 64 bits.`
       : `Instalador offline de ${productTitle} con ${entry.installers.length} idiomas disponibles.`,

@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   },
   description: "Catálogo independiente de instaladores offline de Office, Project y Visio en español y otros idiomas.",
   applicationName: "OfiVault",
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
