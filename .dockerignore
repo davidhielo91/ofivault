@@ -12,4 +12,5 @@ Dockerfile
 .codegraph
 .atl
 design-system
+scripts
 README.md

@@ -15,6 +15,17 @@ Confirmed product pages from Office 2016 onward explain that each IMG contains b
 
 To update the catalog, edit `src/data/installers.json`, run `npm run lint` and `npm run build`, then deploy.
 
+## Catalog import
+
+The catalog lives in `src/data/installers.json`. To maintain it from a spreadsheet instead of editing JSON by hand, keep the full catalog in an `.xlsx` or `.csv` file with four columns in this order: `Software`, `Versión`, `Idioma`, `Enlace`. A header row is optional, and empty or separator rows (such as `-----`) are ignored.
+
+```sh
+npm run catalog:import -- path/to/catalog.xlsx --dry-run   # preview changes
+npm run catalog:import -- path/to/catalog.xlsx             # write installers.json
+```
+
+The script validates every row with the same rules as the build, rejects duplicates, generates installer IDs, and prints what was added, changed, or removed. If the file is missing installers that exist in the current catalog, the import stops unless you pass `--allow-removals`. CSV files exported from Excel work with either `,` or `;` separators and in UTF-8 or Windows-1252 encoding.
+
 ## Deployment
 
 The site is deployed with Coolify from the `Dockerfile` in the repository root. Next.js builds with `output: "standalone"`, and the container runs the Node server on port `3000`. No environment variables are required.
