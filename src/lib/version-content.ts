@@ -183,11 +183,13 @@ export const versionContent: Record<string, VersionContent> = {
       { label: "Arquitecturas", value: "32 y 64 bits" },
       { label: "Soporte", value: "Hasta el 13 de octubre de 2026" },
     ],
-    guideSlugs: ["office-2024-vs-microsoft-365", ...installGuideSlugs],
+    guideSlugs: ["fin-soporte-office-2021", "office-2024-vs-microsoft-365", ...installGuideSlugs],
     faqs: [
       {
         question: "¿Hasta cuándo tiene soporte Office 2021?",
         answer: "Hasta el 13 de octubre de 2026, según el ciclo de vida de Microsoft. Después seguirá funcionando, pero sin actualizaciones de seguridad.",
+        guideSlug: "fin-soporte-office-2021",
+        guideLabel: "Qué hacer cuando termine el soporte",
       },
       {
         question: "¿Me conviene Office 2021 u Office 2024?",
