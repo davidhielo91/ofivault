@@ -44,6 +44,8 @@ export default async function GuidePage({ params }: PageProps) {
   const relatedGuides = guide.relatedSlugs
     .map((relatedSlug) => getGuide(relatedSlug))
     .filter((relatedGuide) => relatedGuide !== undefined);
+  // Support guides recommend moving to Office 2024, so they share its call to action.
+  const pointsToOffice2024 = guide.category !== "Instalación";
   const updatedLabel = new Intl.DateTimeFormat("es", {
     day: "numeric",
     month: "long",
@@ -168,10 +170,10 @@ export default async function GuidePage({ params }: PageProps) {
       <section className="guide-catalog-cta">
         <div>
           <p className="eyebrow">Siguiente paso</p>
-          <h2>{guide.category === "Office 2024" ? "Explora las descargas de Office 2024" : "Encuentra tu instalador"}</h2>
+          <h2>{pointsToOffice2024 ? "Explora las descargas de Office 2024" : "Encuentra tu instalador"}</h2>
         </div>
-        <Link href={guide.category === "Office 2024" ? "/descargar/office-2024" : "/"}>
-          {guide.category === "Office 2024" ? "Ver Office 2024" : "Buscar Office, Project o Visio"} <ArrowRight size={17} aria-hidden="true" />
+        <Link href={pointsToOffice2024 ? "/descargar/office-2024" : "/"}>
+          {pointsToOffice2024 ? "Ver Office 2024" : "Buscar Office, Project o Visio"} <ArrowRight size={17} aria-hidden="true" />
         </Link>
       </section>
     </main>

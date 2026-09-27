@@ -18,9 +18,13 @@ export const metadata: Metadata = {
 };
 
 export default function GuidesPage() {
-  const guideGroups = (["Office 2024", "Instalación"] as const).map((category) => ({
-    category,
-    guides: guides.filter((guide) => guide.category === category),
+  const guideGroups = ([
+    { category: "Office 2024", id: "guides-office-2024", eyebrow: "Guías destacadas" },
+    { category: "Soporte", id: "guides-support", eyebrow: "Ciclo de vida" },
+    { category: "Instalación", id: "guides-installation", eyebrow: "Ayuda práctica" },
+  ] as const).map((group) => ({
+    ...group,
+    guides: guides.filter((guide) => guide.category === group.category),
   }));
   const jsonLd = {
     "@context": "https://schema.org",
@@ -58,12 +62,11 @@ export default function GuidesPage() {
       </section>
 
       {guideGroups.map((group) => {
-        const groupId = group.category === "Office 2024" ? "guides-office-2024" : "guides-installation";
         return (
-          <section className="guide-group" aria-labelledby={groupId} key={group.category}>
+          <section className="guide-group" aria-labelledby={group.id} key={group.category}>
             <div className="guide-group-heading">
-              <p className="eyebrow">{group.category === "Office 2024" ? "Guías destacadas" : "Ayuda práctica"}</p>
-              <h2 id={groupId}>{group.category}</h2>
+              <p className="eyebrow">{group.eyebrow}</p>
+              <h2 id={group.id}>{group.category}</h2>
             </div>
             <div className="guide-index-grid">
               {group.guides.map((guide) => (

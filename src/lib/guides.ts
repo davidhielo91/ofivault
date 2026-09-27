@@ -19,7 +19,7 @@ export type GuideSection = {
 };
 
 export type Guide = {
-  category: "Office 2024" | "Instalación";
+  category: "Office 2024" | "Soporte" | "Instalación";
   slug: string;
   title: string;
   shortTitle: string;
@@ -146,7 +146,7 @@ export const guides: Guide[] = [
       label: "Comparación oficial entre Microsoft 365 y Office 2024",
       url: "https://support.microsoft.com/es-es/office/lifecycle/lc-account/what-s-the-difference-between-microsoft-365-and-office-2024",
     },
-    relatedSlugs: ["office-2024-professional-plus", "requisitos-office-2024", "como-instalar-office-2024"],
+    relatedSlugs: ["office-2024-professional-plus", "requisitos-office-2024", "como-instalar-office-2024", "fin-soporte-office-2021"],
     updatedAt: "2026-07-29",
   },
   {
@@ -257,6 +257,83 @@ export const guides: Guide[] = [
     },
     relatedSlugs: ["requisitos-office-2024", "office-2024-professional-plus", "como-instalar-archivo-img-office", "limpiar-office-antes-de-instalar", "solucionar-problemas-instalacion-office"],
     updatedAt: "2026-07-29",
+  },
+  {
+    category: "Soporte",
+    slug: "fin-soporte-office-2021",
+    title: "Fin del soporte de Office 2021: qué cambia y qué hacer",
+    shortTitle: "Fin del soporte de Office 2021",
+    description: "Office 2021 pierde el soporte de Microsoft el 13 de octubre de 2026. Qué deja de recibir, si seguirá funcionando y qué opciones tienes.",
+    eyebrow: "Ciclo de vida",
+    intro: "Microsoft retira Office 2021, Office LTSC 2021, Project 2021 y Visio 2021 el 13 de octubre de 2026. Si usas alguna de estas versiones, conviene decidir antes de esa fecha si la mantienes, la actualizas o te cambias a una suscripción.",
+    answer: "Después del 13 de octubre de 2026, Office 2021 seguirá abriéndose y funcionando, pero Microsoft dejará de publicar actualizaciones de seguridad y correcciones para esa versión. Si trabajas con documentos o correos de terceros, lo prudente es pasar a Office 2024, que tiene soporte hasta el 9 de octubre de 2029, o a Microsoft 365.",
+    steps: [
+      { title: "Comprueba tu versión", description: "Abre Word o Excel, entra en Archivo y después en Cuenta. En Información del producto verás si tienes Office 2021, Office 2024 o Microsoft 365." },
+      { title: "Identifica tu licencia", description: "Distingue si es una compra de pago único, una licencia por volumen de tu organización (LTSC) o una suscripción de Microsoft 365." },
+      { title: "Decide el camino", description: "Puedes seguir con Office 2021 asumiendo el riesgo, pasar a Office 2024 con una licencia nueva o usar Microsoft 365." },
+      { title: "Haz una copia de seguridad", description: "Guarda tus documentos, plantillas y, si usas Outlook, tus archivos de datos antes de desinstalar nada." },
+      { title: "Desinstala antes de instalar", description: "Quita Office 2021 y reinicia Windows antes de instalar la versión nueva, para evitar conflictos entre versiones o arquitecturas." },
+    ],
+    sections: [
+      {
+        title: "Qué pasa el 13 de octubre de 2026",
+        bullets: [
+          "Office 2021 no se desinstala ni se bloquea: seguirás pudiendo abrir y editar tus archivos.",
+          "Microsoft deja de publicar actualizaciones de seguridad para esa versión.",
+          "Tampoco habrá correcciones de errores ni soporte técnico de Microsoft para Office 2021.",
+          "El riesgo crece con el tiempo, sobre todo si abres archivos adjuntos o documentos que recibes de otras personas.",
+        ],
+      },
+      {
+        title: "Qué productos se ven afectados",
+        paragraphs: [
+          "Según el ciclo de vida publicado por Microsoft, la misma fecha aplica a Office 2021 para consumidores (Hogar y Estudiantes, Hogar y Empresa, Professional), a Office LTSC 2021 para organizaciones, a Project 2021 y a Visio 2021.",
+          "No se ven afectados Office 2024 ni Office LTSC 2024, que tienen soporte hasta el 9 de octubre de 2029, ni Microsoft 365, que sigue recibiendo actualizaciones mientras la suscripción esté activa.",
+        ],
+        callout: {
+          tone: "info",
+          title: "Office 2016 y 2019 ya no tienen soporte",
+          text: "Si todavía usas Office 2016 u Office 2019, su soporte terminó el 14 de octubre de 2025. Las opciones de esta guía también aplican a esas versiones.",
+        },
+      },
+      {
+        title: "Tus opciones",
+        paragraphs: [
+          "Seguir con Office 2021: es posible, pero solo lo recomendamos en equipos con poco riesgo, por ejemplo sin correo ni archivos de terceros. No tendrás parches para vulnerabilidades nuevas.",
+          "Pasar a Office 2024: es la opción más parecida a lo que ya tienes. Se paga una vez, funciona sin suscripción y tiene soporte hasta el 9 de octubre de 2029. Necesitas una licencia nueva de Office 2024; la de Office 2021 no sirve.",
+          "Cambiarte a Microsoft 365: se paga por suscripción, recibe funciones nuevas de forma continua y, según el plan, incluye servicios como OneDrive. Tiene sentido si ya pagas un plan de Microsoft 365 o necesitas trabajar en varios dispositivos.",
+        ],
+      },
+      {
+        title: "Cómo pasar de Office 2021 a Office 2024",
+        bullets: [
+          "Consigue una licencia válida de Office 2024 por un canal oficial.",
+          "Haz una copia de seguridad de tus documentos y de los datos de Outlook.",
+          "Desinstala Office 2021 desde Configuración > Aplicaciones y reinicia Windows.",
+          "Descarga el IMG de Office 2024 en tu idioma, móntalo y ejecuta el instalador de la misma arquitectura que usabas.",
+          "Abre cualquier aplicación e inicia sesión o introduce la clave para activar Office 2024.",
+        ],
+      },
+    ],
+    questions: [
+      { question: "¿Office 2021 dejará de funcionar el 13 de octubre de 2026?", answer: "No. Las aplicaciones seguirán abriéndose y funcionando. Lo que termina es el soporte: no habrá más actualizaciones de seguridad ni correcciones." },
+      { question: "¿Office LTSC 2021 tiene la misma fecha?", answer: "Sí. Microsoft indica el 13 de octubre de 2026 como fin del soporte de Office LTSC 2021, igual que Office 2021, Project 2021 y Visio 2021." },
+      { question: "¿Mi licencia de Office 2021 sirve para instalar Office 2024?", answer: "No. Son versiones con licencias distintas. Para usar Office 2024 necesitas una licencia de Office 2024 o una suscripción de Microsoft 365." },
+      { question: "¿Hasta cuándo tiene soporte Office 2024?", answer: "Hasta el 9 de octubre de 2029, según el ciclo de vida de Microsoft. Lo mismo aplica a Office LTSC 2024." },
+      { question: "¿Puedo tener Office 2021 y Office 2024 instalados a la vez?", answer: "No lo recomendamos. Las instalaciones de distintas versiones suelen generar conflictos. Desinstala Office 2021 antes de instalar Office 2024." },
+    ],
+    officialSource: {
+      label: "Ciclo de vida de Office 2021 en Microsoft Learn",
+      url: "https://learn.microsoft.com/es-es/lifecycle/products/office-2021",
+    },
+    officialSources: [
+      { label: "Ciclo de vida de Office LTSC 2021", url: "https://learn.microsoft.com/es-es/lifecycle/products/office-ltsc-2021" },
+      { label: "Ciclo de vida de Project 2021", url: "https://learn.microsoft.com/es-es/lifecycle/products/project-2021" },
+      { label: "Ciclo de vida de Visio 2021", url: "https://learn.microsoft.com/es-es/lifecycle/products/visio-2021" },
+      { label: "Ciclo de vida de Office 2024", url: "https://learn.microsoft.com/es-es/lifecycle/products/office-2024" },
+    ],
+    relatedSlugs: ["office-2024-vs-microsoft-365", "como-instalar-office-2024", "limpiar-office-antes-de-instalar", "requisitos-office-2024"],
+    updatedAt: "2026-09-26",
   },
   {
     category: "Instalación",

@@ -70,7 +70,9 @@ export default async function DownloadPage({ params, searchParams }: PageProps) 
     ? entry.versionSlug === "office-proplus"
       ? ["office-2024-professional-plus", "como-instalar-office-2024", "requisitos-office-2024"]
       : ["como-instalar-office-2024", "requisitos-office-2024", "office-32-o-64-bits"]
-    : ["instalador-offline-office", "office-32-o-64-bits", "como-instalar-archivo-img-office"];
+    : entry.software === "Office 2021"
+      ? ["fin-soporte-office-2021", "office-32-o-64-bits", "como-instalar-archivo-img-office"]
+      : ["instalador-offline-office", "office-32-o-64-bits", "como-instalar-archivo-img-office"];
   const productGuides = guideSlugs
     .map((guideSlug) => getGuide(guideSlug))
     .filter((guide) => guide !== undefined);
